@@ -4,8 +4,8 @@ import "./landPage.css";
 
 export default function LandPage() {
   return (
-    <>
-      <div className="container">
+    <div className="">
+      <div className="container ">
         <div className="row d-flex justify-content-center">
           <div className="col-md-8">
             <img src={banner1} alt="banner" className="myBabberImage" />
@@ -15,19 +15,15 @@ export default function LandPage() {
       <div className="myWelCometxt">
         <div className="container">
           <div className="row d-flex justify-content-center">
-            <div className="col-md-4">
-              <span className="fs-2 fs-sm-4 fw-bold ms-5 myColor">
-                WELCOME TO THE
-              </span>
+            <div className="col-md-4 d-flex justify-content-center">
+              <span className=" ms-4 myColor">WELCOME TO THE</span>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="row d-flex justify-content-center">
-            <div className="col-md-5">
-              <span className="fs-2 ms-4 fw-bold  myColor">
-                CRAZY APE GOONGYE CLUB
-              </span>
+            <div className="col-md-5 d-flex justify-content-center">
+              <span className=" ms-4  myColor">CRAZY APE GOONGYE CLUB</span>
             </div>
           </div>
         </div>
@@ -49,6 +45,6 @@ export default function LandPage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
