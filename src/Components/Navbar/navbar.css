@@ -8,5 +8,5 @@
 .backGround {
   background-image: url("../../Assets/background.png");
   width: 100%;
-  background-position: center;
+  background-size: contain;
 }
