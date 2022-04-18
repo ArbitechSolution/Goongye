@@ -1,0 +1,76 @@
+.carouselContainer {
+  padding-bottom: 30px;
+}
+.carouselHeading,
+.carouselPara {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselPara {
+  width: 315px;
+}
+.carouselDescripton {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+}
+@media (max-width: 768px) {
+  .carouselDescripton {
+    width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .carouselDescripton {
+    width: 300px;
+  }
+}
+.carousel-indicators {
+  bottom: -30px;
+}
+.carousel-control-next {
+  right: -100px;
+  top: -20px;
+}
+.carousel-control-prev {
+  left: -100px;
+  top: -20px;
+}
+@media (max-width: 768px) {
+  .carousel-control-next {
+    right: -65px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -65px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-control-next {
+    right: -0px;
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-control-prev {
+    left: -0px;
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 375px) {
+  .carousel-control-next {
+    right: -0px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .carousel-control-prev {
+    left: -0px;
+    margin-bottom: 30px;
+  }
+}
