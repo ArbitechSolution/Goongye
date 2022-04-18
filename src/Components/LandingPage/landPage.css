@@ -1,0 +1,36 @@
+.myColor {
+  color: #4ffcb3;
+}
+.myBabberImage {
+  width: 780px;
+  height: 300px;
+}
+.myColorSimple {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+.myColorSimpleBlue {
+  color: #4ffcb3;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .myBabberImage {
+    width: 250px;
+  }
+  .myColorSimpleBlue {
+    color: #4ffcb3;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .myColorSimple {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+  }
+}

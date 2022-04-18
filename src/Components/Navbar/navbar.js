@@ -40,7 +40,7 @@ export default function navbar() {
               Team
             </Nav.Link>
 
-            <Nav.Link className="ms-4 myNavItemstxt " href="#FAQ">
+            <Nav.Link className="ms-4 myNavItemstxt " href="#FAQq">
               FAQ
             </Nav.Link>
           </Nav>
