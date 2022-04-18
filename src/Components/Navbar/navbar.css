@@ -1,0 +1,12 @@
+.myNavItemstxt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+}
+.backGround {
+  background-image: url("../../Assets/background.png");
+  width: 100%;
+  background-position: center;
+}

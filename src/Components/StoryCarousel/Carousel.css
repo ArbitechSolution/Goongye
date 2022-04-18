@@ -1,5 +1,18 @@
 .carouselContainer {
   padding-bottom: 30px;
+  padding-top: 30px;
+  background-image: url("../../Assets/images/Background-sec.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel {
+  width: 50% !important;
+}
+@media (max-width: 767px) {
+  .carousel {
+    width: 100% !important;
+  }
 }
 .carouselHeading,
 .carouselPara {

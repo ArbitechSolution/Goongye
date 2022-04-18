@@ -1,0 +1,15 @@
+.sliderContainer {
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-image: url("../../Assets/background.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardImage {
+  margin-left: 20px;
+}
+.card-img-top {
+  border-radius: 10px;
+  border: 3px solid #fff;
+}

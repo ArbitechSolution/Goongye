@@ -7,7 +7,7 @@ import scene4 from "../../Assets/images/Scene-4.png";
 import "./Carousel.css";
 export default function StoryCarousel() {
   return (
-    <div className="container carouselContainer d-flex justify-content-center mt-5 mb-5">
+    <div className="container-fluid carouselContainer  mt-5 mb-5">
       <Carousel>
         <Carousel.Item>
           <div className="container-staking-outside">
@@ -64,9 +64,8 @@ export default function StoryCarousel() {
         <Carousel.Item>
           <div className="container-staking-outside">
             <div className="container-staking">
-              <div className="container-staking-outside"></div>
+              <img className="d-block w-100" src={scene4} alt="Fourth slide" />
             </div>
-            <img className="d-block w-100" src={scene4} alt="Fourth slide" />
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
