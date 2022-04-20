@@ -1,0 +1,157 @@
+.FAQContainer {
+  overflow: hidden;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mintText {
+  font-size: 50px;
+  line-height: 100%;
+  color: #4ffcb3;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+  font-size: 15px;
+  color: #fff;
+  padding-top: 20px;
+  /* top: 5px; */
+}
+
+li:before {
+  content: url("../../Assets//images/Frame 6.png");
+  position: absolute;
+  left: -10px;
+}
+
+.mintCardBody,
+.mintCard2 {
+  background: #051f28;
+}
+.mintCard {
+  max-width: 480px;
+  border-radius: 10px;
+}
+.mintCard2 {
+  width: 480px;
+  border-radius: 10px;
+}
+.mintImage {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 480px;
+}
+.mintCardBody {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .mintImage,
+  .mintCard,
+  .mintCard2 {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .mintAdditionSection {
+    width: 270px;
+  }
+}
+@media (min-width: 576px) {
+  .mintImage,
+  .mintCard,
+  .mintCard2 {
+    width: 480px;
+  }
+}
+.mintCard2Header {
+  color: #fff;
+  background: #608a97;
+  border-radius: 10px 10px 0px 0px;
+}
+.mintHeaderh3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.mintCard2SubHeader {
+  background: #405c65;
+  color: #fff;
+}
+.spanBalance {
+  color: #4ffcb3;
+}
+.mintAdditionSection,
+.mintTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mintAdditionSection {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+  height: 50px;
+}
+.btnMinus,
+.btnPlus,
+.spanCount,
+.btnMax {
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+.btnMinus,
+.btnPlus,
+.spanCount {
+  font-size: 20px;
+  width: 3px;
+  color: #fff;
+}
+.btnMax {
+  font-size: 15px;
+  color: #767c88;
+}
+.divider,
+.hori {
+  margin: 20px 0px;
+  border-top: 2px solid #405c65;
+}
+
+.totalSpan,
+.KLAYspan {
+  color: #fff;
+}
+.btnWalletStakeArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btnConnectWallet,
+.btnMint {
+  color: #fff;
+  width: 290px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.btnConnectWallet {
+  background: #28aa73;
+  border: 1px solid #28aa73;
+  border-radius: 10px;
+}
+.btnMint {
+  background: #3bc2cb;
+  border: 1px solid #3bc2cb;
+  border-radius: 10px;
+}
+.mintHeaderSpan {
+  font-size: 14px;
+}

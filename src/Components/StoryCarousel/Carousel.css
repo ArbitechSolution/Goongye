@@ -1,4 +1,5 @@
 .carouselContainer {
+  overflow: hidden;
   padding-bottom: 30px;
   padding-top: 30px;
   background-image: url("../../Assets/images/Background-sec.png");
@@ -22,7 +23,7 @@
   align-items: center;
 }
 .carouselPara {
-  width: 315px;
+  width: 300px;
 }
 .carouselDescripton {
   width: 500px;
@@ -35,11 +36,13 @@
 @media (max-width: 768px) {
   .carouselDescripton {
     width: 300px;
+    flex-direction: column;
   }
 }
 @media (max-width: 480px) {
   .carouselDescripton {
     width: 300px;
+    flex-direction: column;
   }
 }
 .carousel-indicators {

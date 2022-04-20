@@ -7,7 +7,7 @@ import scene4 from "../../Assets/images/Scene-4.png";
 import "./Carousel.css";
 export default function StoryCarousel() {
   return (
-    <div className="container-fluid carouselContainer  mt-5 mb-5">
+    <div className="container-fluid carouselContainer  pt-5 pb-5">
       <Carousel>
         <Carousel.Item>
           <div className="container-staking-outside">

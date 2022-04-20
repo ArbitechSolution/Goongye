@@ -8,13 +8,15 @@ import StoryCarousel from "./Components/StoryCarousel/Carousel";
 import NFTCarousel from "./Components/NFTCarousel/Carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Home from "./Components/Home/home";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar />
       <Staking />
       <StoryCarousel />
-      <NFTCarousel />
+      <NFTCarousel /> */}
+      <Home />
     </div>
   );
 }

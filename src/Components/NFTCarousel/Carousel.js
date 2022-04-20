@@ -26,7 +26,20 @@ export default function NFTCarousel() {
           className: "center",
           infinite: true,
           centerPadding: "60px",
-          slidesToShow: 5,
+          slidesToShow: 4,
+          swipeToSlide: true,
+          speed: 100,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          className: "center",
+          infinite: true,
+          centerPadding: "60px",
+          slidesToShow: 3,
           swipeToSlide: true,
           speed: 100,
           slidesToScroll: 1,
@@ -63,41 +76,46 @@ export default function NFTCarousel() {
   };
   return (
     <div className="sliderContainer pt-3 pb-3">
-      <h2 className="d-flex justify-content-center mt-5 mb-5 text-white">
-        CRAZY APE GOONGYE NFT
-      </h2>
-      <Slider {...settings}>
-        <div>
-          <div className="cardImage">
-            <img src={img1} class="card-img-top ms-3" alt="..." />
+      <div>
+        <h2 className="d-flex justify-content-center mt-5 mb-5 text-white">
+          CRAZY APE GOONGYE NFT
+        </h2>
+        <Slider {...settings}>
+          <div>
+            <div className="cardImage">
+              <img src={img1} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="cardImage">
-            <img src={img2} class="card-img-top ms-3" alt="..." />
+          <div>
+            <div className="cardImage">
+              <img src={img2} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="cardImage">
-            <img src={img3} class="card-img-top ms-3" alt="..." />
+          <div>
+            <div className="cardImage">
+              <img src={img3} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="cardImage">
-            <img src={img4} class="card-img-top ms-3" alt="..." />
+          <div>
+            <div className="cardImage">
+              <img src={img4} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="cardImage">
-            <img src={img5} class="card-img-top ms-3" alt="..." />
+          <div>
+            <div className="cardImage">
+              <img src={img5} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="cardImage">
-            <img src={img6} class="card-img-top ms-3" alt="..." />
+          <div>
+            <div className="cardImage">
+              <img src={img6} class="card-img-top nft-images ms-3" alt="..." />
+            </div>
           </div>
+        </Slider>
+        <div className="d-flex justify-content-center align-items-center mt-5 mb-5 ">
+          <button className="btnOpenSea mt-2">OpenSea</button>
         </div>
-      </Slider>
+      </div>
     </div>
   );
 }

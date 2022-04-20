@@ -1,0 +1,111 @@
+.tokennomicDecription {
+  background-image: url("../../Assets/images/Background-sec-4.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tokenNomicsTitle {
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+}
+.tokenDecription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.circleImage {
+  border-radius: 50%;
+}
+.card {
+  background-color: transparent;
+}
+.arrow {
+  position: relative;
+}
+@media (max-width: 991.98px) {
+  .arrow {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .arrow {
+    margin-top: -160px;
+    margin-left: 35px;
+  }
+}
+
+.bodyTokennomicsCard {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.tokenCardTitle {
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 100%;
+
+  color: #ffffff;
+}
+.tokenCardSubTitle {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.tokenCardPara {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.tokenNomicsPara {
+  color: #fff;
+  max-width: 900px;
+  min-width: 300px;
+}
+.tokenNomicsImage {
+  position: relative;
+}
+.tokenBadge {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 999;
+  font-size: 17px;
+  display: flex;
+  top: 46%;
+  justify-content: center;
+  align-items: center;
+}
+.evolve {
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+@media (max-width: 991.98px) {
+  .evolve {
+    margin-top: 33px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .evolve {
+    margin-top: -100px;
+    margin-left: 55px;
+  }
+}

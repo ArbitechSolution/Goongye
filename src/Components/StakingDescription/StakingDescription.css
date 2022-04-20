@@ -1,0 +1,28 @@
+.stakingDecription {
+  background-image: url("../../Assets/images/Background-sec-5.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  overflow: hidden;
+}
+.stakingText {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 100%;
+  color: #4ffcb3;
+}
+.stakingPara1,
+.stakingPara2 {
+  color: #fff;
+  max-width: 760px;
+  min-width: 300px;
+}
+.spanColor1 {
+  color: #2adeea;
+  font-weight: 600;
+}
+.spanColor2 {
+  color: #4ffcb3;
+  font-weight: 600;
+}

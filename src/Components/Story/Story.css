@@ -1,0 +1,77 @@
+.storyContainer {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-image: url("../../Assets/images/Background-sec-2.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.storyText {
+  /* font-family: "Bowlby One"; */
+  font-weight: 900;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4ffcb3;
+}
+.storyImages {
+  background: #c4c4c4;
+  box-shadow: 0px 4px 20px #e4e4a8;
+  border-radius: 0px 30px 30px 30px;
+  border: none;
+}
+.storyImg2Container {
+  position: relative;
+}
+.storyImage2 {
+  margin-top: -30px !important;
+  margin-left: 50%;
+  z-index: 999;
+}
+@media (min-width: 1025px) {
+  .storyImage2 {
+    margin-top: -30px !important;
+    margin-left: 50%;
+    z-index: 999;
+  }
+}
+@media (max-width: 1024.98px) {
+  .storyImage2 {
+    margin-top: -30px !important;
+    margin-left: 35%;
+    z-index: 999;
+  }
+}
+@media (max-width: 575.98px) {
+  .storyImage2 {
+    margin-top: -30px !important;
+    margin-left: 30%;
+    z-index: 999;
+  }
+}
+@media (max-width: 480px) {
+  .storyImage2 {
+    margin-top: -30px !important;
+    margin-left: 12%;
+    z-index: 999;
+  }
+}
+@media (max-width: 320px) {
+  .storyImage2 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    z-index: 999;
+  }
+}
+.background {
+  color: #2adeea;
+  padding: 0px 10px;
+}
+.backgroundPara {
+  color: #fff;
+  padding: 0px 10px;
+}

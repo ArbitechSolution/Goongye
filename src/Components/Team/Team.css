@@ -1,0 +1,51 @@
+.teamContainer {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #156469;
+}
+.teamCardsColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.teamTitle {
+  font-size: 50px;
+  line-height: 100%;
+  color: #4ffcb3;
+  font-weight: 800;
+}
+.teamCard {
+  /* width: 260px;
+  height: 260px; */
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.cardSubTitle {
+  font-size: 24px;
+  color: #4ffcb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardTitle {
+  font-weight: 800;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamCardImage {
+  /* width: 260px;
+  height: 260px; */
+  margin: 0px 10px;
+}

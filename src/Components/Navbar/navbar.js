@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import CAGC1 from "../../Assets/CAGC1.png";
 import LandPage from "../LandingPage/landPage";
 import "./navbar.css";
-export default function navbar() {
+export default function NavBar() {
   return (
     <div className="backGround">
       <div>
