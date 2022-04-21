@@ -1,5 +1,6 @@
 import React from "react";
 import FAQ from "../FAQ/FAQ";
+import Footer from "../Footer/Footer";
 import LandPage from "../LandingPage/landPage";
 import Mint from "../Mint/Mint";
 import NavBar from "../Navbar/navbar";
@@ -23,6 +24,7 @@ export default function Home() {
       <Mint />
       <Team />
       <FAQ />
+      <Footer />
     </div>
   );
 }
