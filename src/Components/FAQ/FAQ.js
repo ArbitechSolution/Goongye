@@ -5,7 +5,7 @@ import image2 from "../../Assets/images/APE 4.png";
 import "./FAQ.css";
 export default function FAQ() {
   return (
-    <div className="container-fluid FAQContainer  pt-5 pb-5">
+    <div className="container-fluid FAQContainer  pt-5 pb-5" id="faq">
       <div>
         <h1 className="FAQTitle">FAQ</h1>
       </div>

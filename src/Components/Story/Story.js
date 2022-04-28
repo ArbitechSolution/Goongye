@@ -5,11 +5,11 @@ import image2 from "../../Assets/images/APE 4.png";
 import "./Story.css";
 export default function Story() {
   return (
-    <div className="container-fluid storyContainer  pt-5 pb-5">
+    <div className="container-fluid storyContainer  pt-2 pb-3" id="story">
       <div className="row">
         <h1 className="storyText">Story</h1>
       </div>
-      <div className="row pt-5">
+      <div className="row pt-3">
         <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
           <div className="row">
             <div className="col-12 ">

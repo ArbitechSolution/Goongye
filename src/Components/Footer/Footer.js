@@ -7,12 +7,12 @@ import victor2 from "../../Assets/images/social/Vector2.png";
 import "./Footer.css";
 export default function Footer() {
   return (
-    <div className="container-fluid footerContainer  pt-5 pb-5">
+    <div className="container-fluid footerContainer  pt-2 pb-2">
       <div className="row footerRow">
-        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pt-2">
           <img src={CAGC1} alt="logo" />
         </div>
-        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center footerMiddleSection">
+        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center footerMiddleSection  pt-2">
           <a className="siteLink" href="/">
             maguni@crazyapegongyeclub.com
           </a>
@@ -20,7 +20,7 @@ export default function Footer() {
             COPYRIGHT Crazyapegoongyeclub. ALL RIGHTS RESERVED
           </h6>
         </div>
-        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+        <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center  pt-2">
           <a href="#" class=" socialLinks">
             <img className="socialImages" src={twitter} />
           </a>

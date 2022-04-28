@@ -5,6 +5,7 @@ import LandPage from "../LandingPage/landPage";
 import Mint from "../Mint/Mint";
 import NavBar from "../Navbar/navbar";
 import NFTCarousel from "../NFTCarousel/Carousel";
+import Roadmap from "../Roadmap/Roadmap";
 import StakingDescription from "../StakingDescription/StakingDescription";
 import Story from "../Story/Story";
 import StoryCarousel from "../StoryCarousel/Carousel";
@@ -14,14 +15,15 @@ import Tokenomics from "../Tokenomics/Tokenomics";
 export default function Home() {
   return (
     <div>
-      {/* <NavBar /> */}
-      {/* <LandPage /> */}
+      <NavBar />
+      <LandPage />
       <Story />
       <StoryCarousel />
       <Tokenomics />
       <StakingDescription />
       <NFTCarousel />
       <Mint />
+      <Roadmap />
       <Team />
       <FAQ />
       <Footer />

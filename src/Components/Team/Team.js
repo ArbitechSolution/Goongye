@@ -7,7 +7,7 @@ import teamImage4 from "../../Assets/images/APE8 1.png";
 import "./Team.css";
 export default function Team() {
   return (
-    <div className="container-fluid teamContainer  pt-5 pb-5">
+    <div className="container-fluid teamContainer  pt-5 pb-5" id="team">
       <div className="row pb-3">
         <h1 className="teamTitle">The Team</h1>
       </div>

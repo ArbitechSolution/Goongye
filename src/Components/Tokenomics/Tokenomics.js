@@ -5,7 +5,10 @@ import image2 from "../../Assets/images/2 7233.png";
 import arrow from "../../Assets/images/OBJECTS.png";
 export default function Tokenomics() {
   return (
-    <div className="tokennomicDecription d-flex justify-content-center align-items-center pt-5 pb-5">
+    <div
+      className="tokennomicDecription d-flex justify-content-center align-items-center pt-5 pb-5"
+      id="tokenomics"
+    >
       <h1 className="tokenNomicsTitle">Tokenomics</h1>
       <div className="row">
         <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">

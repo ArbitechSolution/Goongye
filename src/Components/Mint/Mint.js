@@ -5,7 +5,7 @@ import image2 from "../../Assets/images/APE 4.png";
 import "./Mint.css";
 export default function Mint() {
   return (
-    <div className="container-fluid mintContainer  pt-5 pb-5">
+    <div className="container-fluid mintContainer  pt-5 pb-5" id="mint">
       <div className="row">
         <h1 className="mintText">Mint</h1>
       </div>

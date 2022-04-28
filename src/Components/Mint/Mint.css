@@ -15,7 +15,7 @@
   color: #4ffcb3;
 }
 
-li {
+.mintCardBody li {
   list-style-type: none;
   position: relative;
   padding-left: 15px;
@@ -25,7 +25,7 @@ li {
   /* top: 5px; */
 }
 
-li:before {
+.mintCardBody li:before {
   content: url("../../Assets//images/Frame 6.png");
   position: absolute;
   left: -10px;

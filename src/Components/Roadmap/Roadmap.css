@@ -1,0 +1,222 @@
+.roadMapContainer {
+  background-image: url("../../Assets/images/Background-sec-8.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  overflow: hidden;
+}
+.roadmapTitle {
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmapRowContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.roadmap100CardRow {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.roadmapLargeCard {
+  width: 320px;
+  height: 210px;
+  background: #21353b;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  z-index: 999;
+}
+.roadmapMobileCard,
+.roadmapTabletCard {
+  width: 320px;
+  height: 210px;
+  background: #21353b;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  z-index: 999;
+  margin-top: 80px;
+}
+@media (max-width: 698px) {
+  .roadmapMobileCard {
+    width: 300px;
+  }
+}
+@media (max-width: 648px) {
+  .roadmapMobileCard {
+    width: 280px;
+  }
+}
+.roadmapCardBadge,
+.roadmapCardBadgeLight {
+  position: absolute;
+  top: -17%;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  left: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 15px;
+  z-index: 9999;
+}
+.roadmapCardBadge {
+  background: #21353b;
+  box-shadow: 0px 0px 10px rgba(42, 222, 234, 0.5);
+  color: #4ffcb3;
+}
+.roadmapCardBadgeLight {
+  color: #000;
+  background: #2adeea;
+  box-shadow: 0px 0px 10px rgba(42, 222, 234, 0.5);
+}
+.roadMapCardCol {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.colorText {
+  color: #2adeea;
+}
+.dottedLine {
+  border-top: 2px double #4ffcb3;
+  border-style: dashed;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 500px;
+  background: none;
+  opacity: 1 !important;
+}
+@media (max-width: 1395px) {
+  .dottedLine {
+    width: 450px;
+  }
+}
+@media (max-width: 1250px) {
+  .dottedLine {
+    width: 400px;
+  }
+}
+@media (max-width: 1110px) {
+  .dottedLine {
+    width: 360px;
+  }
+}
+.dottedTabletLine {
+  border-top: 2px double #4ffcb3;
+  border-style: dashed;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 500px;
+  background: none;
+  opacity: 1 !important;
+}
+@media (max-width: 928px) {
+  .dottedTabletLine {
+    width: 480px;
+  }
+}
+@media (max-width: 885px) {
+  .dottedTabletLine {
+    width: 460px;
+  }
+}
+@media (max-width: 840px) {
+  .dottedTabletLine {
+    width: 440px;
+  }
+}
+@media (max-width: 800px) {
+  .dottedTabletLine {
+    width: 420px;
+  }
+}
+.verticalRule {
+  position: absolute;
+  top: 47px;
+  left: 50%;
+  background: none;
+  z-index: 9;
+}
+.dotted100Line {
+  border-top: 2px double #4ffcb3;
+  border-style: dashed;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 505px;
+  background: none;
+  opacity: 1 !important;
+}
+@media (max-width: 1447px) {
+  .dotted100Line {
+    width: 490px;
+  }
+}
+@media (max-width: 1395px) {
+  .dotted100Line {
+    width: 465px;
+  }
+}
+@media (max-width: 1345px) {
+  .dotted100Line {
+    width: 430px;
+  }
+}
+@media (max-width: 1250px) {
+  .dotted100Line {
+    width: 420px;
+  }
+}
+@media (max-width: 1190px) {
+  .dotted100Line {
+    width: 400px;
+  }
+}
+@media (max-width: 1150px) {
+  .dotted100Line {
+    width: 380px;
+  }
+}
+@media (max-width: 1120px) {
+  .dotted100Line {
+    width: 360px;
+  }
+}
+@media (max-width: 1050px) {
+  .dotted100Line {
+    width: 340px;
+  }
+}
+.lightCard {
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(180deg, #4ffcb3 0%, #4fb3fc 100%) 1;
+  border-radius: 30px !important;
+}

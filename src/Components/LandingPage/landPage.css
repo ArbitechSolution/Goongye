@@ -1,11 +1,28 @@
+.heroSection {
+  background-image: url("../../Assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.myBabberImage {
+  max-width: 780px;
+  min-width: 300px;
+}
+.heroRowContainer,
+.myColorSimplePara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.myColorSimple,
+.myColorSimpleBlue {
+  max-width: 800px;
+}
 .myColor {
   color: #4ffcb3;
   font-size: 28px;
   font-weight: bold;
-}
-
-.myBabberImage {
-  width: 780px;
 }
 .myColorSimple {
   color: white;
@@ -21,8 +38,9 @@
 }
 @media (min-width: 300px) and (max-width: 600px) {
   .myBabberImage {
-    width: 100%;
+    width: 250px;
   }
+
   .myColorSimpleBlue {
     color: #4ffcb3;
     font-size: 14px;
