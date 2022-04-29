@@ -15,7 +15,7 @@ import Tokenomics from "../Tokenomics/Tokenomics";
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <LandPage />
       <Story />
       <StoryCarousel />
@@ -26,7 +26,7 @@ export default function Home() {
       <Roadmap />
       <Team />
       <FAQ />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

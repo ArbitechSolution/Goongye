@@ -58,7 +58,7 @@ export default function NavBar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto nav-item-list">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#story">
+                <a class="nav-link active" aria-current="page" href="/">
                   Story
                 </a>
               </li>
@@ -78,7 +78,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#stake">
+                <a class="nav-link" href="/Staking">
                   Stake
                 </a>
               </li>

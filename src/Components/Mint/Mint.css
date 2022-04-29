@@ -8,13 +8,48 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 .mintText {
   font-size: 50px;
   line-height: 100%;
   color: #4ffcb3;
 }
-
+.imageRightSidediv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+.balanceRemaining {
+  color: #4ffcb3;
+  text-align: right;
+}
+@media (max-width: 575.98px) {
+  .imageRightSidediv {
+    right: 5px !important;
+    top: 20px !important;
+  }
+  .imageRightSide {
+    width: 90px;
+  }
+  .balanceRemaining {
+    font-size: 12px !important;
+  }
+  .mintHeaderh3 {
+    font-size: 14px !important;
+  }
+  .mintHeaderSpan {
+    font-size: 9px !important;
+  }
+  .onIcon,
+  .offIcon {
+    right: 120px !important;
+    width: 17px !important;
+  }
+}
 .mintCardBody li {
   list-style-type: none;
   position: relative;
@@ -42,6 +77,7 @@
 .mintCard2 {
   width: 480px;
   border-radius: 10px;
+  position: relative;
 }
 .mintImage {
   border-top-left-radius: 10px;
@@ -84,6 +120,13 @@
 .mintCard2SubHeader {
   background: #405c65;
   color: #fff;
+  position: relative;
+}
+.onIcon,
+.offIcon {
+  position: absolute;
+  top: 20px;
+  right: 170px;
 }
 .spanBalance {
   color: #4ffcb3;

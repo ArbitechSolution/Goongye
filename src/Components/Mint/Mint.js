@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import mint from "../../Assets/images/mint.png";
 import image2 from "../../Assets/images/APE 4.png";
-
+import image3 from "../../Assets/images/111.png";
+import on from "../../Assets/images/On.png";
+import off from "../../Assets/images/Line31.png";
 import "./Mint.css";
 export default function Mint() {
+  const [sound, setSound] = useState(true);
   return (
     <div className="container-fluid mintContainer  pt-5 pb-5" id="mint">
       <div className="row">
@@ -36,12 +39,32 @@ export default function Mint() {
               <span className="ps-3 mintHeaderSpan">
                 Enter how many card you'd like to mint here.
               </span>
+              <div className="imageRightSidediv">
+                <img className="imageRightSide" src={image3} />
+                <span className="balanceRemaining">100000 Remaining</span>
+              </div>
             </div>
             <div className="mintCard2SubHeader pt-2 pb-2">
               <h6 className="ps-3 ">Price Per Card</h6>
               <span className="ps-3">
                 <span className="spanBalance">0.00</span> Klay Each
               </span>
+              <img
+                className="onIcon"
+                src={on}
+                onClick={() => {
+                  setSound(true);
+                }}
+              />
+              {sound && (
+                <img
+                  className="offIcon"
+                  src={off}
+                  onClick={() => {
+                    setSound(false);
+                  }}
+                />
+              )}
             </div>
             <div class="mintCardBody m-3">
               <div>

@@ -1,12 +1,12 @@
-.staking {
+.presales {
   background-image: url("../../Assets/background.png");
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #0f131b;
   padding-top: 100px;
 }
-.container-staking-outside {
+.container-presales-outside {
   border: 3px solid #2adeea;
   position: relative;
 }
@@ -19,7 +19,7 @@
   /* left: 38%; */
   /* top: -1%; */
 }
-.stakingTop-image {
+.presalesTop-image {
   width: 400px;
   height: 50px;
 }
@@ -34,7 +34,7 @@
   }
 }
 @media (max-width: 575.98px) {
-  .stakingTop-image {
+  .presalesTop-image {
     width: 200px;
     height: 30px;
     /* left: 0%; */
@@ -48,7 +48,7 @@
   font-weight: 900;
   font-size: 28px;
 }
-.container-staking {
+.container-presales {
   border: 3px double #2adeea;
   border-style: dashed;
 }
@@ -80,7 +80,7 @@
   font-weight: 600;
 }
 .card-img-top {
-  width: 290px;
+  width: 300px;
   height: 300px;
 }
 .card {
@@ -118,4 +118,75 @@
   border-radius: 10px;
   border: 1px solid #28aa73;
   color: #fff;
+}
+.preslaesAdditionSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preslaesAdditionSection {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+  height: 50px;
+}
+@media (max-width: 320px) {
+  .preslaesAdditionSection {
+    width: 270px;
+  }
+}
+
+.navItems,
+.navItems a {
+  height: 70px;
+  background: #405c65;
+  padding: 2px;
+}
+.navItems .active {
+  background-color: #2adeea !important;
+  border: 2px solid #2adeea !important;
+}
+.presaleCard {
+  border-radius: 10px 0px 10px 0px !important;
+}
+.presaleCard {
+  background: #051f28;
+}
+.presaleCard {
+  width: 480px;
+  border-radius: 10px;
+  position: relative;
+}
+@media (max-width: 320px) {
+  .mintAdditionSection {
+    width: 270px;
+  }
+}
+@media (min-width: 576px) {
+  .presaleCard {
+    width: 480px;
+  }
+}
+.presaleCardHeader {
+  color: #fff;
+  background: #608a97;
+  border-radius: 10px 10px 0px 0px;
+}
+.presaleCardHeaderh3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.presaleCardSubHeader {
+  background: #405c65;
+  color: #fff;
+  position: relative;
+}
+.presaleCard2SubHeader {
+  background: #405c65;
+  color: #fff;
+  position: relative;
+}
+.presaleCardBody {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
