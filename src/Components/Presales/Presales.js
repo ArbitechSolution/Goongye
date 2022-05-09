@@ -24,6 +24,11 @@ export default function Presales() {
       <div className="container container-presales-outside m-5 m-md-3 m-sm-2 ps-0 m-md-1 m-sm-1">
         <div className="container-fluid container-presales m-1 p-lg-5 p-md-3">
           <div className="row mt-5">
+            <div className="connectBtnInPresale">
+              <button className="btnConnectInPresale  mt-2">Connect</button>
+            </div>
+          </div>
+          <div className="row mt-5">
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pt-3">
               <div class="mintCard">
                 <img src={mint} class=" mintImage" alt="..." />
