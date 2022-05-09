@@ -1,0 +1,104 @@
+.NFTTransfer {
+  background-image: url("../../Assets/background.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0f131b;
+  padding-top: 100px;
+}
+.NFTimgArea-text {
+  z-index: 999;
+  position: absolute;
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+}
+@media (max-width: 767px) {
+  .NFTimgArea-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  .nftTop-image {
+    width: 280px;
+    height: 30px;
+    /* left: 0%; */
+  }
+}
+.mintRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.mintCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.congrtsBar {
+  position: relative;
+}
+.textCongrts {
+  position: absolute;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 100%;
+  color: #000000;
+}
+.NFTimg {
+  /* border: 2px solid #3bc2cb; */
+  border-radius: 10px 10px 0px 0px;
+  width: 324px;
+}
+.NFTheading {
+  text-align: center;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+  background: #21353b;
+  width: 324px;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+.btnConfirm {
+  width: 200px;
+  height: 40px;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+  background: #28aa73;
+  border: 1px solid #28aa73;
+}
+
+@media (max-width: 480px) {
+  .NFTimg {
+    width: 270px;
+  }
+}
+.inputLabel {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.inputBox {
+  width: 400px;
+  height: 70px;
+  background: #000000;
+  border: 1px solid #405c65;
+  border-radius: 5px;
+  color: #4ffcb3;
+}
+@media (max-width: 575px) {
+  .inputBox {
+    width: 280px;
+    height: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .inputLabel {
+    float: left !important;
+  }
+}

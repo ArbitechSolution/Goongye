@@ -13,6 +13,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Home from "./Components/Home/home";
 import Presales from "./Components/Presales/Presales";
 import Footer from "./Components/Footer/Footer";
+import MintModal from "./Components/MintModel/MintModel";
+import NFTTransferModal from "./Components/NFTTransferModal/NFTTransferModal";
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/presales" element={<Presales />} />
           <Route exact path="/Staking" element={<Staking />} />
+          <Route exact path="/minting" element={<MintModal />} />
+          <Route exact path="/nftTrfansfer" element={<NFTTransferModal />} />
           {/* <Route exact path="/Mint" element={<Mint />} /> */}
         </Routes>
         {/* <FooterDown /> */}
