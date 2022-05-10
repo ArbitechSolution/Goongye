@@ -5,7 +5,7 @@
   background-size: cover;
 }
 .myBabberImage {
-  max-width: 780px;
+  max-width: 650px;
   min-width: 300px;
 }
 .heroRowContainer,
@@ -21,8 +21,8 @@
 }
 .myColor {
   color: #4ffcb3;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 800;
 }
 .myColorSimple {
   color: white;
@@ -31,7 +31,7 @@
   font-weight: 500;
 }
 .myColorSimpleBlue {
-  color: #4ffcb3;
+  color: #2adeea;
   font-size: 18px;
   text-align: center;
   font-weight: bold;

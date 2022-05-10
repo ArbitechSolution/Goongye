@@ -18,6 +18,8 @@
 .imageRightSidediv {
   position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   top: 10px;
   right: 10px;
@@ -26,6 +28,11 @@
 .balanceRemaining {
   color: #4ffcb3;
   text-align: right;
+  font-size: 12px;
+}
+.imageRightSide {
+  width: 90px;
+  height: 90px;
 }
 @media (max-width: 575.98px) {
   .imageRightSidediv {
@@ -36,7 +43,7 @@
     width: 90px;
   }
   .balanceRemaining {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
   .mintHeaderh3 {
     font-size: 14px !important;
@@ -64,6 +71,8 @@
   content: url("../../Assets//images/Frame 6.png");
   position: absolute;
   left: -10px;
+  width: 10px !important;
+  height: 10px !important;
 }
 
 .mintCardBody,
@@ -71,18 +80,18 @@
   background: #051f28;
 }
 .mintCard {
-  max-width: 480px;
+  max-width: 420px;
   border-radius: 10px;
 }
 .mintCard2 {
-  width: 480px;
+  width: 420px;
   border-radius: 10px;
   position: relative;
 }
 .mintImage {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  width: 480px;
+  width: 420px;
 }
 .mintCardBody {
   border-bottom-left-radius: 10px;
@@ -105,7 +114,7 @@
   .mintImage,
   .mintCard,
   .mintCard2 {
-    width: 480px;
+    width: 420px;
   }
 }
 .mintCard2Header {
@@ -125,8 +134,8 @@
 .onIcon,
 .offIcon {
   position: absolute;
-  top: 20px;
-  right: 170px;
+  top: 10px;
+  right: 140px;
 }
 .spanBalance {
   color: #4ffcb3;

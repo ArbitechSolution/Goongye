@@ -83,32 +83,32 @@ export default function NFTCarousel() {
         <Slider {...settings}>
           <div>
             <div className="cardImage">
-              <img src={img1} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img1} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
           <div>
             <div className="cardImage">
-              <img src={img2} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img2} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
           <div>
             <div className="cardImage">
-              <img src={img3} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img3} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
           <div>
             <div className="cardImage">
-              <img src={img4} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img4} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
           <div>
             <div className="cardImage">
-              <img src={img5} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img5} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
           <div>
             <div className="cardImage">
-              <img src={img6} class="card-img-top nft-images ms-3" alt="..." />
+              <img src={img6} class=" nft-images ms-3" alt="..." />
             </div>
           </div>
         </Slider>

@@ -40,7 +40,7 @@
 }
 
 .bodyTokennomicsCard {
-  background: transparent;
+  background: transparent !important;
   display: flex;
   align-items: center;
   text-align: center;
@@ -48,10 +48,10 @@
 }
 .tokenCardTitle {
   font-weight: 900;
-  font-size: 27px;
+  font-size: 24px;
   line-height: 100%;
 
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .tokenCardSubTitle {
   font-weight: 400;
@@ -60,17 +60,20 @@
 }
 .tokenCardPara {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 100%;
   color: #ffffff;
 }
 .tokenNomicsPara {
   color: #fff;
+  font-size: 19px;
   max-width: 900px;
   min-width: 300px;
 }
 .tokenNomicsImage {
   position: relative;
+  width: 260px !important;
+  height: 260px !important;
 }
 .tokenBadge {
   position: absolute;

@@ -152,7 +152,9 @@ export default function Presales() {
 
                       <div className="btnWalletStakeArea">
                         <div>
-                          <button className="btnMint mt-5 mb-4 ">Mint</button>
+                          <button className="btnMintPresale mt-3 mb-3 ">
+                            Mint
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -208,7 +210,9 @@ export default function Presales() {
 
                       <div className="btnWalletStakeArea">
                         <div>
-                          <button className="btnMint mt-5 mb-4 ">Mint</button>
+                          <button className="btnMintPresale mt-3 mb-3 ">
+                            Mint
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -264,7 +268,7 @@ export default function Presales() {
 
                       <div className="btnWalletStakeArea">
                         <div>
-                          <button className="btnMint mt-5 mb-4 ">
+                          <button className="btnMintPresale mt-3 mb-3">
                             Sold Out
                           </button>
                         </div>
@@ -309,7 +313,7 @@ export default function Presales() {
                         </button>
                       </div>
                       <div>
-                        <button className="btnMint mt-3 mb-3">
+                        <button className="btnMintPresale mt-3 mb-3">
                           Mint & Stake Now
                         </button>
                       </div>

@@ -34,14 +34,16 @@ export default function Mint() {
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center pt-3">
           <div class="mintCard mintCard2">
-            <div className="mintCard2Header pt-3 pb-3">
+            <div className="mintCard2Header pt-2 pb-2">
               <h3 className="ps-3 mintHeaderh3">Mint your Ape Goongyes</h3>
               <span className="ps-3 mintHeaderSpan">
                 Enter how many card you'd like to mint here.
               </span>
               <div className="imageRightSidediv">
                 <img className="imageRightSide" src={image3} />
-                <span className="balanceRemaining">100000 Remaining</span>
+                <span className="balanceRemaining">
+                  {(10000).toLocaleString()} &nbsp;Remaining
+                </span>
               </div>
             </div>
             <div className="mintCard2SubHeader pt-2 pb-2">
@@ -90,17 +92,17 @@ export default function Mint() {
                     <span className="KLAYspan pe-2">--- KLAY</span>
                   </div>
                 </div>
-                <div className="mt-2">
+                <div className="mt-1">
                   <hr className="solid hori"></hr>
                 </div>
                 <div className="btnWalletStakeArea">
                   <div>
-                    <button className="btnConnectWallet mt-3 ">
+                    <button className="btnConnectWallet mt-2 ">
                       Connect Wallet
                     </button>
                   </div>
                   <div>
-                    <button className="btnMint mt-3 mb-3">
+                    <button className="btnMint mt-2 mb-2">
                       Mint & Stake Now
                     </button>
                   </div>

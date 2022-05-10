@@ -29,7 +29,7 @@ export default function Story() {
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
           <div>
-            <h1 className="background">BACKGROUND</h1>
+            <h3 className="background">BACKGROUND</h3>
             <p className="backgroundPara">
               When the Goongye was still in his human form, he was a ruthless
               tyrant that led his people to victory. His country overcame war
@@ -50,7 +50,7 @@ export default function Story() {
             </p>
           </div>
           <div className="">
-            <h1 className="background">STORY</h1>
+            <h3 className="background">STORY</h3>
             <p className="backgroundPara">
               While the Ape Goongye has acquired knowledge beyond the
               understanding of man, the world has fallen into a war between the

@@ -10,7 +10,7 @@ export default function FAQ() {
         <h1 className="FAQTitle">FAQ</h1>
       </div>
       <div className="d-flex justify-content-center align-items-center">
-        <div class="accordion " id="myAccordion">
+        <div class="FAQaccordion " id="myAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button

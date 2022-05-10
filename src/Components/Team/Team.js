@@ -11,7 +11,7 @@ export default function Team() {
       <div className="row pb-3">
         <h1 className="teamTitle">The Team</h1>
       </div>
-      <div className="row mt-5 p-3">
+      <div className="row p-3">
         <div className="teamCardsColumn col-lg-3 col-md-6 col-sm-12">
           <div class="teamCard">
             <img src={teamImage1} class="teamCardImage" alt="..." />

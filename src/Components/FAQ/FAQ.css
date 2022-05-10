@@ -70,3 +70,16 @@
   border-top: #000;
   padding: 10px 20px;
 }
+.FAQaccordion {
+  width: 750px;
+}
+@media (max-width: 575.98px) {
+  .FAQaccordion {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .FAQaccordion {
+    width: 300px;
+  }
+}

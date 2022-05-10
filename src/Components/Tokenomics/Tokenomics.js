@@ -36,7 +36,7 @@ export default function Tokenomics() {
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
           <div className="">
-            <span className="evolve">Evolve</span>
+            <span className="evolve">Breed</span>
             <img className="arrow" src={arrow}></img>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Tokenomics() {
           </div>
         </div>
       </div>
-      <div className="row pt-5">
+      <div className="row pt-3">
         <div className="tokenDecription">
           <div className="ps-5 pe-5">
             <p className="tokenNomicsPara">

@@ -23,10 +23,10 @@
   align-items: center;
 }
 .carouselPara {
-  width: 300px;
+  width: 600px;
 }
 .carouselDescripton {
-  width: 500px;
+  width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,11 +38,17 @@
     width: 300px;
     flex-direction: column;
   }
+  .carouselPara {
+    width: 290px;
+  }
 }
 @media (max-width: 480px) {
   .carouselDescripton {
     width: 300px;
     flex-direction: column;
+  }
+  .carouselPara {
+    width: 290px;
   }
 }
 .carousel-indicators {
@@ -89,4 +95,7 @@
     left: -0px;
     margin-bottom: 30px;
   }
+}
+.carousel-indicators .active {
+  background-color: #4ffcb3;
 }

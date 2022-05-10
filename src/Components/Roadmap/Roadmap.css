@@ -13,20 +13,59 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 .roadmapRowContainer {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+.roadmapRowMobileContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  .roadmapMobile {
+    display: flex;
+  }
+  .roadmapTablet {
+    display: none;
+  }
+  .roadmapLaptop {
+    display: none;
+  }
+}
+/* 
+@media (max-width: 991.98px) {
+  .roadmapTablet {
+    display: flex;
+  }
+  .roadmapMobile {
+    display: none;
+  }
+  .roadmapLaptop {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  .roadmapLaptop {
+    display: flex;
+  }
+  .roadmapMobile {
+    display: none;
+  }
+  .roadmapTablet {
+    display: none;
+  }
+} */
 .roadmap100CardRow {
   display: flex;
   justify-content: start;
   align-items: center;
 }
 .roadmapLargeCard {
-  width: 320px;
-  height: 210px;
+  width: 350px;
+  height: 150px;
   background: #21353b;
   border-radius: 30px;
   padding: 20px;
@@ -43,7 +82,7 @@
 .roadmapMobileCard,
 .roadmapTabletCard {
   width: 320px;
-  height: 210px;
+  height: 150px;
   background: #21353b;
   border-radius: 30px;
   padding: 20px;
@@ -99,6 +138,27 @@
   align-items: center;
   position: relative;
 }
+.roadMapMobileCardCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.roadMapCardColLeft {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.roadMapCardColRight {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+@media (max-width: 1070px) {
+  .roadmapLargeCard {
+    width: 330px;
+  }
+}
 .colorText {
   color: #2adeea;
 }
@@ -108,18 +168,18 @@
   position: absolute;
   top: -30px;
   left: 50%;
-  width: 500px;
+  width: 430px;
   background: none;
   opacity: 1 !important;
 }
 @media (max-width: 1395px) {
   .dottedLine {
-    width: 450px;
+    width: 415px;
   }
 }
 @media (max-width: 1250px) {
   .dottedLine {
-    width: 400px;
+    width: 380px;
   }
 }
 @media (max-width: 1110px) {
@@ -133,36 +193,104 @@
   position: absolute;
   top: -30px;
   left: 50%;
-  width: 500px;
+  width: 480px;
   background: none;
   opacity: 1 !important;
 }
-@media (max-width: 928px) {
-  .dottedTabletLine {
-    width: 480px;
-  }
-}
-@media (max-width: 885px) {
+@media (max-width: 950px) {
   .dottedTabletLine {
     width: 460px;
   }
 }
+@media (max-width: 928px) {
+  .dottedTabletLine {
+    width: 445px;
+  }
+}
+@media (max-width: 885px) {
+  .dottedTabletLine {
+    width: 425px;
+  }
+}
 @media (max-width: 840px) {
   .dottedTabletLine {
-    width: 440px;
+    width: 400px;
   }
 }
 @media (max-width: 800px) {
   .dottedTabletLine {
-    width: 420px;
+    width: 380px;
   }
 }
-.verticalRule {
+.verticalRuleLeft,
+.verticalRuleRight,
+.verticalMobileRule,
+.verticalTabletRule {
   position: absolute;
-  top: 47px;
-  left: 50%;
+  top: 60px;
+  height: 238px;
   background: none;
   z-index: 9;
+}
+.verticalRuleLeft {
+  left: 53%;
+}
+.verticalRuleRight {
+  left: 47%;
+}
+.verticalTabletRule {
+  left: 50%;
+}
+.verticalMobileRule {
+  left: 50%;
+}
+@media (max-width: 1550px) {
+  .verticalRuleRight {
+    left: 36%;
+  }
+  .verticalRuleLeft {
+    left: 65%;
+  }
+}
+@media (max-width: 1450px) {
+  .verticalRuleRight {
+    left: 36%;
+  }
+  .verticalRuleLeft {
+    left: 64%;
+  }
+}
+@media (max-width: 1300px) {
+  .verticalRuleRight {
+    left: 40%;
+  }
+  .verticalRuleLeft {
+    left: 60%;
+  }
+}
+@media (max-width: 1260px) {
+  .verticalRuleRight {
+    left: 41%;
+  }
+  .verticalRuleLeft {
+    left: 59%;
+  }
+}
+@media (max-width: 1200px) {
+  .verticalRuleRight {
+    left: 43%;
+  }
+  .verticalRuleLeft {
+    left: 57%;
+  }
+}
+@media (max-width: 1150px) {
+  .verticalRuleRight {
+    left: 45%;
+  }
+  .verticalRuleLeft {
+    left: 55%;
+  }
 }
 .dotted100Line {
   border-top: 2px double #4ffcb3;
@@ -170,48 +298,58 @@
   position: absolute;
   top: -30px;
   left: 50%;
-  width: 505px;
+  width: 1030px;
   background: none;
   opacity: 1 !important;
 }
+@media (max-width: 1500px) {
+  .dotted100Line {
+    width: 865px;
+  }
+}
+@media (max-width: 1480px) {
+  .dotted100Line {
+    width: 855px;
+  }
+}
 @media (max-width: 1447px) {
   .dotted100Line {
-    width: 490px;
+    width: 843px;
   }
 }
 @media (max-width: 1395px) {
   .dotted100Line {
-    width: 465px;
+    width: 815px;
   }
 }
 @media (max-width: 1345px) {
   .dotted100Line {
-    width: 430px;
+    width: 785px;
   }
 }
 @media (max-width: 1250px) {
   .dotted100Line {
-    width: 420px;
+    width: 766px;
   }
 }
 @media (max-width: 1190px) {
   .dotted100Line {
-    width: 400px;
+    width: 740px;
   }
 }
 @media (max-width: 1150px) {
   .dotted100Line {
-    width: 380px;
+    width: 735px;
   }
 }
 @media (max-width: 1120px) {
   .dotted100Line {
-    width: 360px;
+    width: 710px;
   }
 }
 @media (max-width: 1050px) {
   .dotted100Line {
-    width: 340px;
+    width: 674px;
   }
 }
 .lightCard {
@@ -219,4 +357,7 @@
   border-width: 2px;
   /* border-image: linear-gradient(180deg, #4ffcb3 0%, #4fb3fc 100%) 1; */
   border-radius: 30px !important;
+}
+.roadmapCardText {
+  font-size: 14px;
 }

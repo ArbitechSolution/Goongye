@@ -24,10 +24,22 @@
 .nft-images {
   width: 250px;
   height: 250px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+@media (min-width: 1450px) {
+  .nft-images {
+    width: 280px;
+  }
+}
+@media (max-width: 1449px) {
+  .nft-images {
+    width: 250px;
+  }
 }
 .btnOpenSea {
-  width: 300px;
-  height: 70px;
+  width: 250px;
+  height: 60px;
   font-weight: 800;
   font-size: 20px;
   border-bottom-left-radius: 15px;

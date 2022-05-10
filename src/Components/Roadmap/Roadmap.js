@@ -9,18 +9,18 @@ export default function Roadmap() {
     <div className="roadMapContainer pt-5 pb-5" id="roadmap">
       <h1 className="roadmapTitle">Roadmap</h1>
       {/* large view */}
-      <div className="row roadmapRowContainer d-flex d-md-none d-lg-flex d-sm-none">
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+      <div className="row roadmapRowContainer roadmapLaptop  d-lg-flex  d-md-none  d-sm-none">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadge">5%</span>
-            <span class="">
+            <span class="roadmapCardText">
               Open the website of the ape,
               <span className="colorText"> ‘Goongye’</span>
             </span>
           </div>
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol g-0">
           <div class="roadmapLargeCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadge">10%</span>
@@ -30,18 +30,18 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColRight g-0">
           <div class="roadmapLargeCard">
             <span class="badge roadmapCardBadge">15%</span>
-            <span class="">
+            <span class="roadmapCardText">
               <span className="colorText"> A prize draw</span> will be provided
               when the tickets are sold out for each of the first to third
               rounds.
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalRuleRight" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard">
             <hr className="dottedLine" />
 
@@ -52,9 +52,9 @@ export default function Roadmap() {
               and sending to the press
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalRuleLeft" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol g-0">
           <div class="roadmapLargeCard lightCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadgeLight ">30%</span>
@@ -66,7 +66,7 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColRight g-0">
           <div class="roadmapLargeCard">
             <span class="badge roadmapCardBadge">20%</span>
 
@@ -77,7 +77,7 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard lightCard">
             <hr className="dottedLine" />
             <span className="">
@@ -88,11 +88,11 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol g-0">
           <div class="roadmapLargeCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadge">50%</span>
-            <span class="">
+            <span class="roadmapCardText">
               Purchase the
               <span className="colorText pe-1"> land of Sandbox</span>
               and Decentraland metaverse
@@ -100,7 +100,7 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColRight g-0">
           <div class="roadmapLargeCard lightCard">
             <span class="badge roadmapCardBadgeLight">60%</span>
             <span className="">
@@ -108,9 +108,9 @@ export default function Roadmap() {
               Yeongdeungpo Times Square
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalRuleRight" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard lightCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadgeLight">80%</span>
@@ -121,21 +121,21 @@ export default function Roadmap() {
               (or Make a logo song for Gungye APE)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalRuleLeft" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol g-0">
           <div class="roadmapLargeCard lightCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadgeLight">75%</span>
 
-            <span class="">
+            <span class="roadmapCardText">
               Add <span className="colorText"> governance function</span> to the
               website
             </span>
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColRight g-0">
           <div class="roadmapLargeCard">
             <span class="badge roadmapCardBadge">70%</span>
 
@@ -146,7 +146,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadge">85%</span>
@@ -156,7 +156,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol g-0">
           <div class="roadmapLargeCard lightCard">
             <hr className="dottedLine" />
             <span class="badge roadmapCardBadgeLight">90%</span>
@@ -167,7 +167,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColRight g-0">
           <div class="roadmapLargeCard lightCard">
             <span class="badge roadmapCardBadgeLight">95%</span>
 
@@ -177,9 +177,9 @@ export default function Roadmap() {
               end of the year
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalRuleRight" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol roadMapCardColLeft g-0">
           <div class="roadmapLargeCard">
             <hr className="dotted100Line" />
             <span class="badge roadmapCardBadge">100%</span>
@@ -200,27 +200,27 @@ export default function Roadmap() {
         </div>
       </div> */}
       {/* mid level view */}
-      <div className="row roadmapRowContainer d-none d-md-flex d-lg-none d-sm-none">
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+      <div className="row roadmapRowContainer roadmapTablet d-md-flex  d-lg-none d-sm-none">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">5%</span>
             <hr className="dottedTabletLine" />
-            <span class="">
+            <span class="roadmapCardText">
               Open the website of the ape,
               <span className="colorText"> ‘Goongye’</span>
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">10%</span>
             <span className="">
               Startfirst to third <span className="colorText"> pre-sale</span>
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">20%</span>
             <hr className="dottedTabletLine" />
@@ -229,19 +229,19 @@ export default function Roadmap() {
               after the 3rd pre-sale is completed
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">15%</span>
-            <span class="">
+            <span class="roadmapCardText">
               <span className="colorText"> A prize draw</span> will be provided
               when the tickets are sold out for each of the first to third
               rounds.
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">30%</span>
             <hr className="dottedTabletLine" />
@@ -251,7 +251,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">40%</span>
             <span className="">
@@ -259,21 +259,21 @@ export default function Roadmap() {
               and sending to the press
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">50%</span>
             <hr className="dottedTabletLine" />
-            <span class="">
+            <span class="roadmapCardText">
               Purchase the
               <span className="colorText pe-1"> land of Sandbox</span>
               and Decentraland metaverse
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span className="">
               <span class="badge roadmapCardBadgeLight">45%</span>
@@ -283,7 +283,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">60%</span>
             <hr className="dottedTabletLine" />
@@ -293,7 +293,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">70%</span>
             <span className="">
@@ -302,9 +302,9 @@ export default function Roadmap() {
               services such as YouTube, Telegram, and Kakao Talk.
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">80%</span>
             <hr className="dottedTabletLine" />
@@ -314,19 +314,19 @@ export default function Roadmap() {
               (or Make a logo song for Gungye APE)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">75%</span>
-            <span class="">
+            <span class="roadmapCardText">
               Add <span className="colorText"> governance function</span> to the
               website
             </span>
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">85%</span>
             <hr className="dottedTabletLine" />
@@ -335,7 +335,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">90%</span>
             <span className="">
@@ -343,9 +343,9 @@ export default function Roadmap() {
               holders (chain undecided)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalTabletRule" />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard">
             <span class="badge roadmapCardBadge">100%</span>
             <hr className="dottedTabletLine" />
@@ -354,7 +354,7 @@ export default function Roadmap() {
             </span>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol">
+        <div className="col-sm-6 col-md-6 col-lg-6 roadMapCardCol g-0">
           <div class="roadmapTabletCard lightCard">
             <span class="badge roadmapCardBadgeLight">95%</span>
 
@@ -369,40 +369,40 @@ export default function Roadmap() {
 
       {/* mobile view */}
 
-      <div className="row roadmapRowContainer d-flex d-md-none d-lg-none d-sm-flex">
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+      <div className="row roadmapRowMobileContainer roadmapMobile d-sm-flex  d-md-none d-lg-none ">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">5%</span>
-            <span class="">
+            <span class="roadmapCardText">
               Open the website of the ape,
               <span className="colorText"> ‘Goongye’</span>
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">10%</span>
             <span className="">
               Startfirst to third <span className="colorText"> pre-sale</span>
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">15%</span>
 
-            <span class="">
+            <span class="roadmapCardText">
               <span className="colorText"> A prize draw</span> will be provided
               when the tickets are sold out for each of the first to third
               rounds.
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">20%</span>
 
@@ -411,9 +411,9 @@ export default function Roadmap() {
               after the 3rd pre-sale is completed
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">30%</span>
 
@@ -422,9 +422,9 @@ export default function Roadmap() {
               <span className="colorText ps-1">100 People</span>
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">40%</span>
             <span className="">
@@ -432,9 +432,9 @@ export default function Roadmap() {
               and sending to the press
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span className="">
               <span class="badge roadmapCardBadgeLight">45%</span>
@@ -443,22 +443,22 @@ export default function Roadmap() {
               function (or Open the function of minting and staking)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">50%</span>
 
-            <span class="">
+            <span class="roadmapCardText">
               Purchase the
               <span className="colorText pe-1"> land of Sandbox</span>
               and Decentraland metaverse
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">60%</span>
 
@@ -467,9 +467,9 @@ export default function Roadmap() {
               Yeongdeungpo Times Square
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">70%</span>
 
@@ -479,20 +479,20 @@ export default function Roadmap() {
               services such as YouTube, Telegram, and Kakao Talk.
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">75%</span>
 
-            <span class="">
+            <span class="roadmapCardText">
               Add <span className="colorText"> governance function</span> to the
               website
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">80%</span>
 
@@ -502,10 +502,10 @@ export default function Roadmap() {
               (or Make a logo song for Gungye APE)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
 
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">85%</span>
 
@@ -513,9 +513,9 @@ export default function Roadmap() {
               Open<span className="colorText"> ‘Maguni Game’</span>
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">90%</span>
 
@@ -524,9 +524,9 @@ export default function Roadmap() {
               holders (chain undecided)
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard lightCard">
             <span class="badge roadmapCardBadgeLight">95%</span>
 
@@ -536,9 +536,9 @@ export default function Roadmap() {
               end of the year
             </span>
           </div>
-          <img src={line} class="verticalRule" />
+          <img src={line} class="verticalMobileRule" />
         </div>
-        <div className="col-sm-12 col-md-4 col-lg-4 roadMapCardCol">
+        <div className="col-sm-12 col-md-4 col-lg-4 roadMapMobileCardCol">
           <div class="roadmapMobileCard">
             <span class="badge roadmapCardBadge">100%</span>
             <span className="">
