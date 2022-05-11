@@ -9,7 +9,7 @@ import containerImage from "../../Assets/images/Group 48.png";
 import "./Staking.css";
 export default function Staking() {
   return (
-    <div className="staking d-flex justify-content-center mt-5" id="stake">
+    <div className="staking d-flex justify-content-center " id="stake">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
         <img className="stakingTop-image" src={containerImage}></img>
         <span className="imgArea-text">Staking</span>

@@ -5,7 +5,7 @@ import image2 from "../../Assets/images/APE 4.png";
 import "./Story.css";
 export default function Story() {
   return (
-    <div className="container-fluid storyContainer  pt-2 pb-3" id="story">
+    <div className="container-fluid storyContainer  pt-2 pb-3 p-1" id="story">
       <div className="row">
         <h1 className="storyText">Story</h1>
       </div>
@@ -28,7 +28,7 @@ export default function Story() {
           </div>
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
-          <div>
+          <div className="container">
             <h3 className="background">BACKGROUND</h3>
             <p className="backgroundPara">
               When the Goongye was still in his human form, he was a ruthless
@@ -49,7 +49,7 @@ export default function Story() {
               reason and objectivity beyond anything else.
             </p>
           </div>
-          <div className="">
+          <div className="container">
             <h3 className="background">STORY</h3>
             <p className="backgroundPara">
               While the Ape Goongye has acquired knowledge beyond the

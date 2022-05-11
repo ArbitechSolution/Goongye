@@ -15,17 +15,20 @@ import Presales from "./Components/Presales/Presales";
 import Footer from "./Components/Footer/Footer";
 import MintModal from "./Components/MintModel/MintModel";
 import NFTTransferModal from "./Components/NFTTransferModal/NFTTransferModal";
+import AppPresale from "./AppPresale";
+import Appstake from "./Appstake";
+import AppHome from "./AppHome";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/presales" element={<Presales />} />
-          <Route exact path="/Staking" element={<Staking />} />
-          <Route exact path="/minting" element={<MintModal />} />
-          <Route exact path="/nftTrfansfer" element={<NFTTransferModal />} />
+          <Route exact path="/" element={<AppHome />} />
+          <Route exact path="/Presale" element={<AppPresale />} />
+          <Route exact path="/Stake" element={<Appstake />} />
+          {/* <Route exact path="/minting" element={<MintModal />} />
+          <Route exact path="/nftTrfansfer" element={<NFTTransferModal />} /> */}
           {/* <Route exact path="/Mint" element={<Mint />} /> */}
         </Routes>
         {/* <FooterDown /> */}

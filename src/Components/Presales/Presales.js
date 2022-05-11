@@ -16,7 +16,7 @@ export default function Presales() {
     }
   };
   return (
-    <div className="presales d-flex justify-content-center">
+    <div className="presales d-flex justify-content-center" id="Presale">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
         <img className="presalesTop-image" src={containerImage}></img>
         <span className="imgArea-text">Presales</span>
