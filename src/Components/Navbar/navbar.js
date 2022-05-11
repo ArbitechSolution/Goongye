@@ -67,22 +67,22 @@ export default function NavBar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto nav-item-list">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#story">
+                <a class="nav-link active" aria-current="page" href="/#story">
                   Story
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tokenomics">
+                <a class="nav-link" href="/#tokenomics">
                   Tokennomics
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#nft">
+                <a class="nav-link" href="/#nft">
                   NFT
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#mint">
+                <a class="nav-link" href="/#mint">
                   Mint
                 </a>
               </li>
@@ -96,17 +96,17 @@ export default function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#roadmap">
+                <a class="nav-link" href="/#roadmap">
                   Roadmap
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team">
+                <a class="nav-link" href="/#team">
                   Team
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#faq">
+                <a class="nav-link" href="/#faq">
                   FAQ
                 </a>
               </li>
