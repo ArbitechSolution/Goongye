@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
@@ -18,7 +18,19 @@ import NFTTransferModal from "./Components/NFTTransferModal/NFTTransferModal";
 import AppPresale from "./AppPresale";
 import Appstake from "./Appstake";
 import AppHome from "./AppHome";
+import Caver from 'caver-js'
+
+const caver = new Caver("http://localhost:8551/");
 function App() {
+  async function testFunction() {
+    const keyring = caver
+    console.log(keyring)
+  }
+  
+  useEffect(()=>{
+    testFunction()
+
+  },[])
   return (
     <div className="App">
       <BrowserRouter>
