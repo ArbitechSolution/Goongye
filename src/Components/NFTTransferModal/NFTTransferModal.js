@@ -6,7 +6,11 @@ import light from "../../Assets/images/light-from-top-background.png";
 import tick from "../../Assets/images/tick.png";
 import "./NFTTransferModal.css";
 import NFTTransferSuccess from "../NFTTransferSuccess/NFTTransferSuccess";
+import { useTranslation } from "react-i18next";
+
 export default function NFTTransferModal() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="NFTTransfer d-flex justify-content-center">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">

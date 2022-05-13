@@ -5,16 +5,38 @@ import image3 from "../../Assets/images/111.png";
 import on from "../../Assets/images/On.png";
 import off from "../../Assets/images/Line31.png";
 import "./Mint.css";
+import { useTranslation } from "react-i18next";
+
 export default function Mint() {
+  const { t, i18n } = useTranslation();
+
   const [sound, setSound] = useState(true);
   return (
     <div className="container-fluid mintContainer  pt-5 pb-5" id="mint">
       <div className="row">
-        <h1 className="mintText">Mint</h1>
+        <h1
+          className="mintText "
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          Mint
+        </h1>
       </div>
       <div className="row mt-5">
         <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pt-3">
-          <div class="mintCard">
+          <div
+            class="mintCard "
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <img src={mint} class=" mintImage" alt="..." />
             <div class=" mintCardBody pb-1">
               <ul>
@@ -33,7 +55,15 @@ export default function Mint() {
           </div>
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center pt-3">
-          <div class="mintCard mintCard2">
+          <div
+            class="mintCard mintCard2 "
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <div className="mintCard2Header pt-2 pb-2">
               <h3 className="ps-3 mintHeaderh3">Mint your Ape Goongyes</h3>
               <span className="ps-3 mintHeaderSpan">

@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
@@ -18,19 +18,29 @@ import NFTTransferModal from "./Components/NFTTransferModal/NFTTransferModal";
 import AppPresale from "./AppPresale";
 import Appstake from "./Appstake";
 import AppHome from "./AppHome";
-import Caver from 'caver-js'
+import Caver from "caver-js";
+import "animate.css";
+import AOS from "aos";
+
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const caver = new Caver("http://localhost:8551/");
 function App() {
-  async function testFunction() {
-    const keyring = caver
-    console.log(keyring)
-  }
-  
-  useEffect(()=>{
-    testFunction()
+  const testFunction = async () => {
+    const keyring = caver.rpc.klay;
 
-  },[])
+    // const keyring = caver.wallet.keyring.generate();
+    //.getBalance(
+    //    "0x12B87236AdE9DA0726248dd49d90A41a3741BacF"
+    // )
+    console.log("keyring", keyring);
+  };
+
+  useEffect(() => {
+    testFunction();
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>

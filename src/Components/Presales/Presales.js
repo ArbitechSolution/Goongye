@@ -4,8 +4,10 @@ import klytn from "../../Assets/images/klaytn-klay-logo 1.png";
 import containerImage from "../../Assets/images/Group 48.png";
 import "./Presales.css";
 import "../Mint/Mint.css";
+import { useTranslation } from "react-i18next";
 
 export default function Presales() {
+  const { t, i18n } = useTranslation();
   const [count, setCount] = useState(0);
   const handlePlus = () => {
     setCount(count + 1);

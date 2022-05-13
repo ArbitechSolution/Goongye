@@ -57,10 +57,12 @@
 .carousel-control-next {
   right: -100px;
   top: -20px;
+  display: none;
 }
 .carousel-control-prev {
   left: -100px;
   top: -20px;
+  display: none;
 }
 @media (max-width: 768px) {
   .carousel-control-next {

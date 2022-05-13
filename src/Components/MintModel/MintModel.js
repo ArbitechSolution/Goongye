@@ -4,7 +4,10 @@ import mintwin from "../../Assets/images/mintWin.png";
 import containerImage from "../../Assets/images/Group 48.png";
 import light from "../../Assets/images/light-from-top-background.png";
 import "./MintModal.css";
+import { useTranslation } from "react-i18next";
+
 export default function MintModal() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="minting d-flex justify-content-center">
       <img className="lightImg" src={light} alt="" />

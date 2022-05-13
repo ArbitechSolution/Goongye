@@ -1,17 +1,37 @@
 import React from "react";
 import mint from "../../Assets/images/mint.png";
 import image2 from "../../Assets/images/APE 4.png";
+import { useTranslation } from "react-i18next";
 
 import "./FAQ.css";
 export default function FAQ() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="container-fluid FAQContainer  pt-5 pb-5" id="faq">
       <div>
-        <h1 className="FAQTitle">FAQ</h1>
+        <h1
+          className="FAQTitle"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          FAQ
+        </h1>
       </div>
       <div className="d-flex justify-content-center align-items-center">
         <div class="FAQaccordion " id="myAccordion">
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingOne">
               <button
                 type="button"
@@ -32,7 +52,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingTwo">
               <button
                 type="button"
@@ -53,7 +81,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingThree">
               <button
                 type="button"
@@ -75,7 +111,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingFour">
               <button
                 type="button"
@@ -96,7 +140,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingFive">
               <button
                 type="button"
@@ -117,7 +169,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingSix">
               <button
                 type="button"
@@ -138,7 +198,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingSeven">
               <button
                 type="button"
@@ -159,7 +227,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingEight">
               <button
                 type="button"
@@ -180,7 +256,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingNine">
               <button
                 type="button"
@@ -201,7 +285,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingTen">
               <button
                 type="button"
@@ -222,7 +314,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingEleven">
               <button
                 type="button"
@@ -243,7 +343,15 @@ export default function FAQ() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div
+            class="accordion-item"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h2 class="accordion-header" id="headingTweleve">
               <button
                 type="button"

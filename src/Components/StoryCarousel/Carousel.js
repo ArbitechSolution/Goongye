@@ -5,25 +5,33 @@ import scene2 from "../../Assets/images/Scene-2.png";
 import scene3 from "../../Assets/images/Scene-3.png";
 import scene4 from "../../Assets/images/Scene-4.png";
 import "./Carousel.css";
+import { useTranslation } from "react-i18next";
+
 export default function StoryCarousel() {
+  const { t, i18n } = useTranslation();
+
   return (
-    <div className="container-fluid carouselContainer  pt-5 pb-5">
-      <Carousel>
+    <div className="container-fluid carouselContainer  pt-5 pb-5 ">
+      <Carousel
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
         <Carousel.Item>
           <div className="container-staking-outside">
             <div className="container-staking">
-              <img className="d-block w-100" src={scene1} alt="First slide" />
+              <img className="d-block w-100 " src={scene1} alt="First slide" />
             </div>
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">Scene#1</h3>
-              <p className="carouselPara">
-                The Ape Goongye discusses war tactics with other Eastern
-                countries to minimize casualties and end the conflict. However,
-                some of the allies want the Ape Goongye to use his troops to
-                wipe out an enemy camp.
-              </p>
+              <h3 className="carouselHeading pe-2">
+                {t("storyCarousel.scene1")}
+              </h3>
+              <p className="carouselPara">{t("storyCarousel.para1")}</p>
             </div>
           </div>
         </Carousel.Item>
@@ -35,11 +43,10 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">Scene#2</h3>
-              <p className="carouselPara">
-                The Ape Goongye and some of the allies entered a heated argument
-                regarding violent tactics and securing the safety of civilians.
-              </p>
+              <h3 className="carouselHeading pe-2">
+                {t("storyCarousel.scene2")}
+              </h3>
+              <p className="carouselPara">{t("storyCarousel.para2")}</p>
             </div>
           </div>
         </Carousel.Item>
@@ -51,13 +58,10 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">Scene#3</h3>
-              <p className="carouselPara">
-                The Ape Goongye realizes that his allies want to destroy the
-                Western countries and take over their territory. Since he is not
-                a ruthless tyrant anymore, he decides to leave his position as a
-                leader and left civilization.
-              </p>
+              <h3 className="carouselHeading pe-2">
+                {t("storyCarousel.scene3")}
+              </h3>
+              <p className="carouselPara">{t("storyCarousel.para3")}</p>
             </div>
           </div>
         </Carousel.Item>
@@ -69,13 +73,10 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">Scene#4</h3>
-              <p className="carouselPara">
-                Now, the Ape Goongye travels the world as a stranger that
-                teaches men about peace and the sanctity of life. The Eastern
-                and Western countries are in a constant war but the Ape Goongye
-                decides to ignore the violence.
-              </p>
+              <h3 className="carouselHeading pe-2">
+                {t("storyCarousel.scene4")}
+              </h3>
+              <p className="carouselPara">{t("storyCarousel.para4")}</p>
             </div>
           </div>
         </Carousel.Item>

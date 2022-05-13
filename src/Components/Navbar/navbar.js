@@ -5,20 +5,45 @@ import twitter from "../../Assets/images/social/twitter.png";
 import talk from "../../Assets/images/social/talk.png";
 import victor from "../../Assets/images/social/Vector.png";
 import victor2 from "../../Assets/images/social/Vector2.png";
+import { useTranslation } from "react-i18next";
 import "./navbar.css";
 export default function NavBar({ changeMain, changeStake, changePresale }) {
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
   const handleClick = () => {
     navigate("staking");
   };
   const handleClicks = () => {
     navigate("presales");
   };
+  function handleChangeLanguage(lang) {
+    console.log("lang", lang);
+    // console.log(2 - 3);
+    i18n.changeLanguage(lang);
+  }
   return (
-    <div className="container-fluid navbarMainContainer">
+    <div
+      className="container-fluid navbarMainContainer "
+      data-aos="zoom-in"
+      data-aos-duration="3000"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
       <div className="col-12 justify-content-end align-items-center mobileNabarSocial pt-2">
-        <span className="languageChnage active">ENG</span>
-        <span className="languageChnage">KOR</span>
+        <span
+          className="languageChnage active"
+          onClick={() => handleChangeLanguage("en")}
+        >
+          ENG
+        </span>
+        <span
+          className="languageChnage"
+          onClick={() => handleChangeLanguage("ko")}
+        >
+          KOR
+        </span>
         <a href="#" class="navbarSocialLinks">
           <img className="navbarSocialImages" src={twitter} />
         </a>
@@ -39,8 +64,18 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
             <img src={CAGC1} alt="..." height="36" />
           </a>
           <div className="d-flex justify-content-end align-items-center pt-2 pe-4 d-lg-none ">
-            <span className="languageChnage">ENG</span>
-            <span className="languageChnage">KOR</span>
+            <span
+              className="languageChnage"
+              onClick={() => handleChangeLanguage("en")}
+            >
+              ENG
+            </span>
+            <span
+              className="languageChnage"
+              onClick={() => handleChangeLanguage("ko")}
+            >
+              KOR
+            </span>
             <a href="#" class="navbarSocialLinks">
               <img className="navbarSocialImages" src={twitter} />
             </a>
@@ -76,7 +111,7 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                   href="#story"
                   onClick={() => changeMain()}
                 >
-                  Story
+                  {t("navbar.story")}
                 </a>
               </li>
               <li class="nav-item">
@@ -85,17 +120,17 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                   href="#tokenomics"
                   onClick={() => changeMain()}
                 >
-                  Tokennomics
+                  {t("navbar.tokenomics")}
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/#nft">
-                  NFT
+                  {t("navbar.NFT")}
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/#mint">
-                  Mint
+                  {t("navbar.mint")}
                 </a>
               </li>
               <li class="nav-item">
@@ -104,7 +139,7 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                   onClick={() => changeStake()}
                   href="#Stake"
                 >
-                  Stake
+                  {t("navbar.stake")}
                 </a>
               </li>
               <li class="nav-item">
@@ -113,17 +148,17 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                   href="#roadmap"
                   onClick={() => changeMain()}
                 >
-                  Roadmap
+                  {t("navbar.roadmap")}
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team" onClick={() => changeMain()}>
-                  Team
+                  {t("navbar.team")}
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#faq" onClick={() => changeMain()}>
-                  FAQ
+                  {t("navbar.FAQ")}
                 </a>
               </li>
               <li class="nav-item">
@@ -132,7 +167,7 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                   href="#Presale"
                   onClick={() => changePresale()}
                 >
-                  Presale
+                  {t("navbar.presale")}
                 </a>
               </li>
             </ul>

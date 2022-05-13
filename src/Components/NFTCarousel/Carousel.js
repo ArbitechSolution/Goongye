@@ -8,18 +8,60 @@ import img5 from "../../Assets/images/4 6.png";
 import img6 from "../../Assets/images/24 2.png";
 import "./Carousel.css";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
 
 export default function NFTCarousel() {
+  const { t, i18n } = useTranslation();
+
   const settings = {
     className: "center",
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 5,
+    slidesToShow: 6,
     swipeToSlide: true,
     speed: 100,
     slidesToScroll: 1,
     autoplay: true,
     responsive: [
+      {
+        breakpoint: 1760,
+        settings: {
+          className: "center",
+          infinite: true,
+          centerPadding: "10px",
+          slidesToShow: 5,
+          swipeToSlide: true,
+          speed: 100,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 1600,
+        settings: {
+          className: "center",
+          infinite: true,
+          centerPadding: "10px",
+          slidesToShow: 5,
+          swipeToSlide: true,
+          speed: 100,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 1440,
+        settings: {
+          className: "center",
+          infinite: true,
+          centerPadding: "10px",
+          slidesToShow: 5,
+          swipeToSlide: true,
+          speed: 100,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
@@ -75,46 +117,101 @@ export default function NFTCarousel() {
     ],
   };
   return (
-    <div className="sliderContainer pt-3 pb-3">
-      <div>
-        <h2 className="d-flex justify-content-center mt-5 mb-5 text-white">
-          CRAZY APE GOONGYE NFT
-        </h2>
-        <Slider {...settings}>
-          <div>
-            <div className="cardImage">
-              <img src={img1} class=" nft-images ms-3" alt="..." />
-            </div>
+    <div className="container-fluid sliderContainer pt-3 pb-3">
+      <h2
+        className="d-flex justify-content-center mt-5 mb-5 text-white "
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        CRAZY APE GOONGYE NFT
+      </h2>
+      <Slider
+        {...settings}
+        className="sliderCarousel"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        <div>
+          <div className="cardImage">
+            <img src={img1} class=" nft-images ms-3" alt="..." />
           </div>
-          <div>
-            <div className="cardImage">
-              <img src={img2} class=" nft-images ms-3" alt="..." />
-            </div>
-          </div>
-          <div>
-            <div className="cardImage">
-              <img src={img3} class=" nft-images ms-3" alt="..." />
-            </div>
-          </div>
-          <div>
-            <div className="cardImage">
-              <img src={img4} class=" nft-images ms-3" alt="..." />
-            </div>
-          </div>
-          <div>
-            <div className="cardImage">
-              <img src={img5} class=" nft-images ms-3" alt="..." />
-            </div>
-          </div>
-          <div>
-            <div className="cardImage">
-              <img src={img6} class=" nft-images ms-3" alt="..." />
-            </div>
-          </div>
-        </Slider>
-        <div className="d-flex justify-content-center align-items-center mt-5 mb-5 ">
-          <button className="btnOpenSea mt-2">OpenSea</button>
         </div>
+        <div>
+          <div className="cardImage">
+            <img src={img2} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img3} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img4} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img5} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img6} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img1} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img2} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img3} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img4} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img5} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+        <div>
+          <div className="cardImage">
+            <img src={img6} class=" nft-images ms-3" alt="..." />
+          </div>
+        </div>
+      </Slider>
+      <div className="d-flex justify-content-center align-items-center mt-5 mb-5 ">
+        <button
+          className="btnOpenSea mt-2 "
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          OpenSea
+        </button>
       </div>
     </div>
   );

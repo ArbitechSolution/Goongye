@@ -1,26 +1,56 @@
 import React from "react";
 import image1 from "../../Assets/images/APE2 1.png";
 import image2 from "../../Assets/images/APE 4.png";
+import { useTranslation } from "react-i18next";
 
 import "./Story.css";
+import { t } from "i18next";
 export default function Story() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="container-fluid storyContainer  pt-2 pb-3 p-1" id="story">
       <div className="row">
-        <h1 className="storyText">Story</h1>
+        <h1
+          className="storyText "
+          data-aos="fade-up"
+          data-aos-duration="4000"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          {t("story.title")}
+        </h1>
       </div>
       <div className="row pt-3">
         <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
           <div className="row">
             <div className="col-12 ">
               <div className="col-12 d-flex justify-content-center align-items-center">
-                <img className="card-img-top storyImages" src={image1} />
+                <img
+                  className="card-img-top storyImages "
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
+                  src={image1}
+                />
               </div>
             </div>
             <div className="col-12 ">
               <div className=" d-flex justify-content-center align-items-center">
                 <img
-                  className="card-img-top storyImages storyImage2"
+                  className="card-img-top storyImages storyImage2 "
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
                   src={image2}
                 />
               </div>
@@ -29,43 +59,84 @@ export default function Story() {
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 mt-4">
           <div className="container">
-            <h3 className="background">BACKGROUND</h3>
-            <p className="backgroundPara">
-              When the Goongye was still in his human form, he was a ruthless
-              tyrant that led his people to victory. His country overcame war
-              against various enemies through the use of deadly force and
-              objective decisions. The Goongye showed no mercy to his enemies
-              but was a good ally to his friends. He never abandoned a partner
-              in battle nor let his worst enemies survive a fight. As he gained
-              more knowledge to understand the world and become more powerful,
-              he came upon the forbidden book – The Necronomicon.
+            <h3
+              className="background "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("stroy.background")}
+            </h3>
+            <p
+              className="backgroundPara "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("stroy.paraback1")}
             </p>
-            <p className="backgroundPara">
-              The Goongye was thirsty for knowledge and power which led him to
-              ignore the warnings of his council and read the forbidden book. He
-              spent weeks in his room, reading and analyzing each page and text.
-              When he emerged from his weeks of seclusion, he was not a man
-              anymore. He has become the Ape Goongye; a higher being that values
-              reason and objectivity beyond anything else.
+            <p
+              className="backgroundPara "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("stroy.paraback2")}
             </p>
           </div>
           <div className="container">
-            <h3 className="background">STORY</h3>
-            <p className="backgroundPara">
-              While the Ape Goongye has acquired knowledge beyond the
-              understanding of man, the world has fallen into a war between the
-              Eastern and Western countries. Since the Ape Goongye is from the
-              east, he then prepares to help his allies win the war.
+            <h3
+              className="background "
+              data-aos="fade-up"
+              data-aos-duration="4000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("story.story")}
+            </h3>
+            <p
+              className="backgroundPara "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("story.parastory1")}
             </p>
-            <p className="backgroundPara">
-              However, reading the Necronomicon has made the Ape Goongye less of
-              a tyrant and more of a peace-keeper. While he wants to secure the
-              power of his country, he does not want to destroy the Western
-              countries or harm innocent civilians.
+            <p
+              className="backgroundPara "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("story.parastory2")}
             </p>
-            <p className="backgroundPara">
-              Since some of the Goongye’s allies preferred the ruthless tyrant,
-              they are having trouble working with the changed Ape Goongye.
+            <p
+              className="backgroundPara "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              {t("story.parastory3")}
             </p>
           </div>
         </div>

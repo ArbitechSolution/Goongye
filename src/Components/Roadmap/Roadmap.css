@@ -172,6 +172,61 @@
   background: none;
   opacity: 1 !important;
 }
+@media (min-width: 2650px) {
+  .dottedLine {
+    width: 630px;
+  }
+}
+@media (max-width: 2650px) {
+  .dottedLine {
+    width: 625px;
+  }
+}
+@media (max-width: 2600px) {
+  .dottedLine {
+    width: 620px;
+  }
+}
+@media (max-width: 2530px) {
+  .dottedLine {
+    width: 618px;
+  }
+}
+@media (max-width: 2470px) {
+  .dottedLine {
+    width: 595px;
+  }
+}
+@media (max-width: 2430px) {
+  .dottedLine {
+    width: 590px;
+  }
+}
+@media (max-width: 2330px) {
+  .dottedLine {
+    width: 575px;
+  }
+}
+@media (max-width: 2240px) {
+  .dottedLine {
+    width: 560px;
+  }
+}
+@media (max-width: 2140px) {
+  .dottedLine {
+    width: 540px;
+  }
+}
+@media (max-width: 1700px) {
+  .dottedLine {
+    width: 415px;
+  }
+}
+@media (max-width: 1600px) {
+  .dottedLine {
+    width: 415px;
+  }
+}
 @media (max-width: 1395px) {
   .dottedLine {
     width: 415px;
@@ -244,6 +299,78 @@
 .verticalMobileRule {
   left: 50%;
 }
+@media (min-width: 2650px) {
+  .verticalRuleRight {
+    left: 20%;
+  }
+  .verticalRuleLeft {
+    left: 80%;
+  }
+}
+@media (max-width: 2650px) {
+  .verticalRuleRight {
+    left: 20%;
+  }
+  .verticalRuleLeft {
+    left: 80%;
+  }
+}
+@media (max-width: 2600px) {
+  .verticalRuleRight {
+    left: 20%;
+  }
+  .verticalRuleLeft {
+    left: 80%;
+  }
+}
+@media (max-width: 2550px) {
+  .verticalRuleRight {
+    left: 20%;
+  }
+  .verticalRuleLeft {
+    left: 79%;
+  }
+}
+@media (max-width: 2500px) {
+  .verticalRuleRight {
+    left: 21%;
+  }
+  .verticalRuleLeft {
+    left: 79%;
+  }
+}
+@media (max-width: 2450px) {
+  .verticalRuleRight {
+    left: 21%;
+  }
+  .verticalRuleLeft {
+    left: 79%;
+  }
+}
+@media (max-width: 2400px) {
+  .verticalRuleRight {
+    left: 22%;
+  }
+  .verticalRuleLeft {
+    left: 78%;
+  }
+}
+@media (max-width: 2350px) {
+  .verticalRuleRight {
+    left: 22%;
+  }
+  .verticalRuleLeft {
+    left: 78%;
+  }
+}
+@media (max-width: 2250px) {
+  .verticalRuleRight {
+    left: 25%;
+  }
+  .verticalRuleLeft {
+    left: 75%;
+  }
+}
 @media (max-width: 1550px) {
   .verticalRuleRight {
     left: 36%;
@@ -301,6 +428,96 @@
   width: 1030px;
   background: none;
   opacity: 1 !important;
+}
+@media (min-width: 2700px) {
+  .dotted100Line {
+    width: 1270px;
+  }
+}
+@media (max-width: 2700px) {
+  .dotted100Line {
+    width: 1250px;
+  }
+}
+@media (max-width: 2650px) {
+  .dotted100Line {
+    width: 1235px;
+  }
+}
+@media (max-width: 2600px) {
+  .dotted100Line {
+    width: 1215px;
+  }
+}
+@media (max-width: 2550px) {
+  .dotted100Line {
+    width: 1190px;
+  }
+}
+@media (max-width: 2500px) {
+  .dotted100Line {
+    width: 1188px;
+  }
+}
+@media (max-width: 2450px) {
+  .dotted100Line {
+    width: 1170px;
+  }
+}
+@media (max-width: 2420px) {
+  .dotted100Line {
+    width: 1160px;
+  }
+}
+@media (max-width: 2380px) {
+  .dotted100Line {
+    width: 1150px;
+  }
+}
+@media (max-width: 2350px) {
+  .dotted100Line {
+    width: 1140px;
+  }
+}
+@media (max-width: 2320px) {
+  .dotted100Line {
+    width: 1120px;
+  }
+}
+@media (max-width: 2280px) {
+  .dotted100Line {
+    width: 1100px;
+  }
+}
+@media (max-width: 2250px) {
+  .dotted100Line {
+    width: 1090px;
+  }
+}
+@media (max-width: 2230px) {
+  .dotted100Line {
+    width: 1080px;
+  }
+}
+@media (max-width: 2180px) {
+  .dotted100Line {
+    width: 1055px;
+  }
+}
+@media (max-width: 2150px) {
+  .dotted100Line {
+    width: 1050px;
+  }
+}
+@media (max-width: 2090px) {
+  .dotted100Line {
+    width: 1030px;
+  }
+}
+@media (max-width: 1700px) {
+  .dotted100Line {
+    width: 865px;
+  }
 }
 @media (max-width: 1500px) {
   .dotted100Line {

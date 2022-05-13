@@ -7,6 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .staking {
   background-image: url("../../Assets/background.png");
   width: 100%;
@@ -14,9 +15,9 @@
   background-repeat: no-repeat;
   background-color: #0f131b;
 }
-.cardImage {
+/* .cardImage {
   margin-left: 20px;
-}
+} */
 .card-img-top {
   border-radius: 10px;
   border: 3px solid #fff;
@@ -27,16 +28,19 @@
   border-radius: 10px;
   border: 3px solid #fff;
 }
-@media (min-width: 1450px) {
+/* .slick-slide {
+  width: 300px !important;
+} */
+/* @media (min-width: 1450px) {
   .nft-images {
-    width: 280px;
+    width: 250px;
   }
 }
 @media (max-width: 1449px) {
   .nft-images {
     width: 250px;
   }
-}
+} */
 .btnOpenSea {
   width: 250px;
   height: 60px;
@@ -49,4 +53,14 @@
   color: #fff;
   background: #28aa73;
   border: 1px solid #28aa73;
+}
+/* .slick-slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.slick-track {
+  /* width: 2700px !important; */
+  /* transform: translate3d(-2700px, 0px, 0px) !important; */
 }

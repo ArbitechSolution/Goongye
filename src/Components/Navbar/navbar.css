@@ -44,6 +44,16 @@
   display: flex;
   padding-right: 7.5%;
 }
+@media (min-width: 2750px) and (max-width: 3050px) {
+  .mobileNabarSocial {
+    padding-right: 26%;
+  }
+}
+@media (min-width: 2650px) and (max-width: 2750px) {
+  .mobileNabarSocial {
+    padding-right: 26%;
+  }
+}
 @media (min-width: 2600px) and (max-width: 2650px) {
   .mobileNabarSocial {
     padding-right: 26%;
@@ -87,4 +97,11 @@
 }
 .languageChnage .active {
   border-bottom: 2px solid #fff;
+}
+.animate__fadeInUp,
+.animate__fadeInDown,
+.animate__fadeIn,
+.animate__zoomIn {
+  animation-duration: 1000ms;
+  /* animation-delay: 0.1s; */
 }

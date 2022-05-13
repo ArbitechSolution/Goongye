@@ -6,8 +6,12 @@ import image4 from "../../Assets/images/25 1.png";
 import image5 from "../../Assets/images/2 7233.png";
 import image6 from "../../Assets/images/3 618266.png";
 import containerImage from "../../Assets/images/Group 48.png";
+import { useTranslation } from "react-i18next";
+
 import "./Staking.css";
 export default function Staking() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="staking d-flex justify-content-center " id="stake">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
