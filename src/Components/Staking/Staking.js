@@ -13,7 +13,7 @@ export default function Staking() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="staking d-flex justify-content-center " id="stake">
+    <div className="staking d-flex justify-content-center ">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
         <img className="stakingTop-image" src={containerImage}></img>
         <span className="imgArea-text">Staking</span>

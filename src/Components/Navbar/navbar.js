@@ -13,14 +13,8 @@ export default function NavBar({
   changePresale,
   changeMinting,
 }) {
-  const navigate = useNavigate();
   const { t, i18n } = useTranslation();
-  const handleClick = () => {
-    navigate("staking");
-  };
-  const handleClicks = () => {
-    navigate("presales");
-  };
+
   function handleChangeLanguage(lang) {
     console.log("lang", lang);
     // console.log(2 - 3);

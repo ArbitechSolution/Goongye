@@ -13,6 +13,8 @@ import Appstake from "./Appstake";
 import AppPresale from "./AppPresale";
 import Team from "./Components/Team/Team";
 import AppMinting from "./AppMinting";
+import Footer from "./Components/Footer/Footer";
+import FooterWithoutAnimation from "./Components/Footer/Footer2";
 const AppHome = () => {
   let [changeRouteis, setChangeRouteIs] = useState("main");
   const changeMain = () => {
@@ -47,6 +49,7 @@ const AppHome = () => {
         <Roadmap />
         <Team />
         <FAQ />
+        <Footer />
       </div>
     );
   };
@@ -61,6 +64,7 @@ const AppHome = () => {
           changeMinting={changeMinting}
         />
         <Appstake />
+        <FooterWithoutAnimation />
       </div>
     );
   };
@@ -74,6 +78,7 @@ const AppHome = () => {
           changeMinting={changeMinting}
         />
         <AppPresale />
+        <FooterWithoutAnimation />
       </div>
     );
   };
@@ -87,6 +92,7 @@ const AppHome = () => {
           changeMinting={changeMinting}
         />
         <AppMinting />
+        <Footer />
       </div>
     );
   };

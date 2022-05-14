@@ -53,8 +53,7 @@ function App() {
           <Route exact path="/nftTrfansfer" element={<NFTTransferModal />} /> */}
           {/* <Route exact path="/Mint" element={<Mint />} /> */}
         </Routes>
-        {/* <FooterDown /> */}
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
       {/* <NavBar />
       <Staking />
