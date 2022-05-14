@@ -12,7 +12,7 @@ export default function Mint() {
 
   const [sound, setSound] = useState(true);
   return (
-    <div className="container-fluid mintContainer  pt-5 pb-5" id="mint">
+    <div className="container-fluid mintContainer  pt-5 pb-5">
       <div className="row">
         <h1
           className="mintText "

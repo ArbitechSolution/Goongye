@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 export default function MintModal() {
   const { t, i18n } = useTranslation();
   return (
-    <div className="minting d-flex justify-content-center">
+    <div className="minting d-flex justify-content-center" id="mint">
       <img className="lightImg" src={light} alt="" />
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
         <img className="presalesTop-image" src={containerImage}></img>

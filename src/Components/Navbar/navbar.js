@@ -7,7 +7,12 @@ import victor from "../../Assets/images/social/Vector.png";
 import victor2 from "../../Assets/images/social/Vector2.png";
 import { useTranslation } from "react-i18next";
 import "./navbar.css";
-export default function NavBar({ changeMain, changeStake, changePresale }) {
+export default function NavBar({
+  changeMain,
+  changeStake,
+  changePresale,
+  changeMinting,
+}) {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const handleClick = () => {
@@ -129,7 +134,11 @@ export default function NavBar({ changeMain, changeStake, changePresale }) {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/#mint">
+                <a
+                  class="nav-link"
+                  href="#mint"
+                  onClick={() => changeMinting()}
+                >
                   {t("navbar.mint")}
                 </a>
               </li>

@@ -12,6 +12,7 @@ import Tokenomics from "./Components/Tokenomics/Tokenomics";
 import Appstake from "./Appstake";
 import AppPresale from "./AppPresale";
 import Team from "./Components/Team/Team";
+import AppMinting from "./AppMinting";
 const AppHome = () => {
   let [changeRouteis, setChangeRouteIs] = useState("main");
   const changeMain = () => {
@@ -23,6 +24,9 @@ const AppHome = () => {
   const changePresale = () => {
     setChangeRouteIs("Presale");
   };
+  const changeMinting = () => {
+    setChangeRouteIs("Minting");
+  };
 
   const Main = () => {
     return (
@@ -31,6 +35,7 @@ const AppHome = () => {
           changeMain={changeMain}
           changeStake={changeStake}
           changePresale={changePresale}
+          changeMinting={changeMinting}
         />
         <LandPage />
         <Story />
@@ -53,6 +58,7 @@ const AppHome = () => {
           changeMain={changeMain}
           changeStake={changeStake}
           changePresale={changePresale}
+          changeMinting={changeMinting}
         />
         <Appstake />
       </div>
@@ -65,8 +71,22 @@ const AppHome = () => {
           changeMain={changeMain}
           changeStake={changeStake}
           changePresale={changePresale}
+          changeMinting={changeMinting}
         />
         <AppPresale />
+      </div>
+    );
+  };
+  const Minting = () => {
+    return (
+      <div>
+        <NavBar
+          changeMain={changeMain}
+          changeStake={changeStake}
+          changePresale={changePresale}
+          changeMinting={changeMinting}
+        />
+        <AppMinting />
       </div>
     );
   };
@@ -87,6 +107,12 @@ const AppHome = () => {
     return (
       <div className="App">
         <Presale />
+      </div>
+    );
+  } else if (changeRouteis == "Minting") {
+    return (
+      <div className="App">
+        <Minting />
       </div>
     );
   } else {

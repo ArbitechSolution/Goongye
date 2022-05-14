@@ -13,9 +13,9 @@ export default function Footer() {
   return (
     <div className="container-fluid footerContainer  pt-2 pb-2">
       <div
-        className="row footerRow"
+        className="container row footerRow"
         data-aos="fade-down"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
         data-aos-offset="200"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"

@@ -3,6 +3,9 @@
   padding-bottom: 30px;
   padding-top: 30px;
   background: #031e1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footerRow {
   display: flex;
