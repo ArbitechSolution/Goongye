@@ -123,7 +123,7 @@ export default function NavBar({
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/#nft">
+                <a class="nav-link" href="#nft">
                   {t("navbar.NFT")}
                 </a>
               </li>
@@ -131,7 +131,8 @@ export default function NavBar({
                 <a
                   class="nav-link"
                   href="#mint"
-                  onClick={() => changeMinting()}
+                  // onClick={() => changeMinting()}
+                  onClick={() => changeMain()}
                 >
                   {t("navbar.mint")}
                 </a>

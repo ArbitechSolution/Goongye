@@ -127,7 +127,7 @@ export default function Mint() {
   }, [acc]);
 
   return (
-    <div className="container-fluid mintContainer  pt-5 pb-5">
+    <div className="container-fluid mintContainer  pt-5 pb-5" id="mint">
       <div className="row">
         <h1
           className="mintText "
