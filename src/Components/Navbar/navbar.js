@@ -143,7 +143,7 @@ export default function NavBar({
                   onClick={() => changeStake()}
                   href="#Stake"
                 >
-                  {t("navbar.stake")}
+                 {t("staking.para22")}
                 </a>
               </li>
               <li class="nav-item">
