@@ -133,7 +133,6 @@
    "roadmap.parah22": "at the end of the year",
    "roadmap.parah23":"Unveil a larger ecosystem expansion (Roadmap 2.0)",
 
-<<<<<<< Updated upstream
    "team.para1":"The Team",
    "team.para2":"The Artist",
    "team.para3":"Blockchain Dev",
@@ -182,7 +181,7 @@
    "staking.para41":"The Crazy Ape Goongye Club is an ecosystem on the blockchain populated by theruthless tyrant. a limited series of 10,000 NFT.The $MAGUNI token is the utility that powers the CAGC ecosystem.",
    "staking.para42":"Stake",
    "staking.para43":"Change Name",
-   "staking.para44":"Change Bio"
+   "staking.para44":"Change Bio",
 
 
 
@@ -190,7 +189,7 @@
 
 
 
-=======
+
 
    "FAQ.1": "FAQ",
    "faq.parah1": "When will the minting site be announced?",
@@ -232,5 +231,5 @@
    "presale.price":"Price",
    "presale.Amount":"Amount",
    "presale.Sold":"Sold Out"
->>>>>>> Stashed changes
+
 }
