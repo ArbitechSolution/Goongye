@@ -138,7 +138,7 @@ export default function Mint() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          Mint
+          {t("mint.1")}
         </h1>
       </div>
       <div className="row mt-5">
@@ -155,15 +155,13 @@ export default function Mint() {
             <img src={mint} class=" mintImage" alt="..." />
             <div class=" mintCardBody pb-1">
               <ul>
-                <li> You MUST connect a Wallet to mint NFTs.</li>
-                <li>Transactions will be done via the connected wallet.</li>
+                <li> {t("mint.li1")}</li>
+                <li>{t("mint.li2")}</li>
                 <li>
-                  You MUST have KLAYTN to pay gas fee when it comes to make
-                  transactions.
+                {t("mint.li3")}
                 </li>
                 <li>
-                  The number of mints per transaction is set according to each
-                  sales round.
+                {t("mint.li4")}
                 </li>
               </ul>
             </div>
@@ -180,21 +178,21 @@ export default function Mint() {
             data-aos-once="false"
           >
             <div className="mintCard2Header pt-2 pb-2">
-              <h3 className="ps-3 mintHeaderh3">Mint your Ape Goongyes</h3>
+              <h3 className="ps-3 mintHeaderh3">{t("mint.h3")}</h3>
               <span className="ps-3 mintHeaderSpan">
-                Enter how many card you'd like to mint here.
+              {t("mint.para1")}
               </span>
               <div className="imageRightSidediv">
                 <img className="imageRightSide" src={image3} />
                 <span className="balanceRemaining">
-                  {(10000).toLocaleString()} &nbsp;Remaining
+                  {(10000).toLocaleString()} &nbsp;{t("mint.Remaining")}
                 </span>
               </div>
             </div>
             <div className="mintCard2SubHeader pt-2 pb-2">
-              <h6 className="ps-3 ">Price Per Card</h6>
+              <h6 className="ps-3 ">{t("mint.price")}</h6>
               <span className="ps-3">
-                <span className="spanBalance">0.00</span> Klay Each
+                <span className="spanBalance">0.00</span> {t("mint.Each")}
               </span>
               <img
                 className="onIcon"
@@ -226,7 +224,7 @@ export default function Mint() {
                     </button>
                   </div>
                   <div>
-                    <button className="btnMax ">3 max</button>
+                    <button className="btnMax ">3 {t("mint.max")}</button>
                   </div>
                 </div>
                 {/* <div className="divider"></div> */}
@@ -235,10 +233,10 @@ export default function Mint() {
                 </div>
                 <div className="mintTotal">
                   <div>
-                    <span className="totalSpan ps-2">Total</span>
+                    <span className="totalSpan ps-2">{t("mint.Total")}</span>
                   </div>
                   <div>
-                    <span className="KLAYspan pe-2">{ttlKlay} KLAY</span>
+                    <span className="KLAYspan pe-2">--- {t("mint.KLAY")}</span>
                   </div>
                 </div>
                 <div className="mt-1">
@@ -246,27 +244,13 @@ export default function Mint() {
                 </div>
                 <div className="btnWalletStakeArea">
                   <div>
-                    <button
-                      className="btnConnectWallet mt-2 "
-                      onClick={onConnectAcc}
-                    >
-                      {acc === "No Wallet"
-                        ? "Connect"
-                        : acc === "Connect Wallet"
-                        ? "Connect"
-                        : acc === "Wrong Network"
-                        ? acc
-                        : acc.substring(0, 4) +
-                          "..." +
-                          acc.substring(acc.length - 4)}
+                    <button className="btnConnectWallet mt-2 ">
+                    {t("mint.Wallet")}
                     </button>
                   </div>
                   <div>
-                    <button
-                      onClick={() => mintAndStake()}
-                      className="btnMint mt-2 mb-2"
-                    >
-                      Mint & Stake Now
+                    <button className="btnMint mt-2 mb-2">
+                    {t("mint.Mint")}
                     </button>
                   </div>
                 </div>

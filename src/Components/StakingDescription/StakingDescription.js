@@ -18,7 +18,7 @@ export default function StakingDescription() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          Staking
+          {t("Staking.1")}
         </h1>
       </div>
       <div className="ps-5 pe-5">
@@ -31,10 +31,7 @@ export default function StakingDescription() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          After announcing that you can stake your Crazy Ape Goongye we received
-          a lot of positive feedback showing that people are very interested in
-          this feature. So, how do you stake your Crazy Ape Goongye and what
-          benefits does it bring?
+          {t("staking.parah1")}
         </p>
       </div>
       <div className="mt-2 ps-5 pe-5">
@@ -47,14 +44,11 @@ export default function StakingDescription() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          The Staking feature will be available immediately upon mint of your
-          Crazy Ape Goongye NFT. Owners can stake their Crazy Ape Goongye for
-          any period of time depending on their decision and will receive a
-          reward of
+         {t("staking.parah2")}
           <span className="spanColor1 ps-1">96</span>
-          <span className="spanColor2"> $MAGUNI</span>
-          <span className="spanColor1"> tokens </span>
-          per day.
+          <span className="spanColor2"> ${t("staking.MAGUNI")}</span>
+          <span className="spanColor1"> {t("staking.tokens")} </span>
+          {t("staking.day")}
         </p>
       </div>
       <div className="mt-2 ps-5 pe-5">
@@ -67,16 +61,14 @@ export default function StakingDescription() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          The more Crazy Ape Goongye you use to stake the more
-          <span className="spanColor2 ps-1"> $MAGUNI</span>
-          <span className="spanColor1"> tokens </span>
-          you will receive. You can also evolve to level up and mint an King Ape
-          Goongye. King Ape Goongye FTs will also be available to stake and
-          owners will receive 2.5 times more rewards, at the rate of
+          {t("staking.parah3")}
+          <span className="spanColor2 ps-1"> ${t("staking.MAGUNI")}</span>
+          <span className="spanColor1"> {t("staking.tokens")} </span>
+          {t("staking.parah4")}
           <span className="spanColor1 ps-1">240</span>
-          <span className="spanColor2"> $MAGUNI</span>
-          <span className="spanColor1"> tokens </span>
-          per day.
+          <span className="spanColor2"> ${t("staking.MAGUNI")}</span>
+          <span className="spanColor1"> {t("staking.tokens")} </span>
+          {t("staking.day")}
         </p>
       </div>
       <div>
