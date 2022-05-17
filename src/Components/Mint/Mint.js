@@ -1,16 +1,131 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import mint from "../../Assets/images/mint.png";
 import image2 from "../../Assets/images/APE 4.png";
 import image3 from "../../Assets/images/111.png";
 import on from "../../Assets/images/On.png";
 import off from "../../Assets/images/Line31.png";
+import Caver from "caver-js";
 import "./Mint.css";
+import { googyeContractAddress, goongyeContractAbi } from "../Utils/Goongye.js";
 import { useTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
+import { loadWeb3 } from "../../api";
+import { connectionAction } from "../../Redux/connection/actions";
+import { toast } from "react-toastify";
+const caver = new Caver(window.klaytn);
 
 export default function Mint() {
   const { t, i18n } = useTranslation();
+  let [noMints, setNomints] = useState(1);
+  let [ttlKlay, setTtlKlay] = useState(0);
+  const dispatch = useDispatch();
+  let acc = useSelector((state) => state.connect?.connection);
+
+  console.log("acc", acc);
+  const onConnectAcc = () => {
+    dispatch(connectionAction());
+  };
+
+  const getInitialMintPrice = async () => {
+    try {
+      let contractOf = new caver.klay.Contract(
+        goongyeContractAbi,
+        googyeContractAddress
+      );
+      let totalPrice = await contractOf.methods.gPRice(1).call();
+      totalPrice = caver.utils.fromPeb(totalPrice);
+      setTtlKlay(totalPrice);
+    } catch (e) {
+      console.log("Error while getting minting price", e);
+    }
+  };
+
+  const increment = async () => {
+    if (noMints < 3) {
+      const web3 = window.web3;
+      let contractOf = new caver.klay.Contract(
+        goongyeContractAbi,
+        googyeContractAddress
+      );
+      let newNum = noMints + 1;
+      let totalPrice = await contractOf.methods.gPRice(newNum).call();
+      console.log("totalPrice", totalPrice);
+
+      totalPrice = parseFloat(totalPrice) / 1000000000000000000;
+      setTtlKlay(totalPrice);
+      setNomints(newNum);
+      console.log("Incremetn", totalPrice);
+    }
+  };
+  const decrement = async () => {
+    if (noMints > 1) {
+      console.log("decremetn");
+      const web3 = window.web3;
+      let contractOf = new caver.klay.Contract(
+        goongyeContractAbi,
+        googyeContractAddress
+      );
+      let newNum = noMints - 1;
+      console.log("newNum", newNum);
+
+      let totalPrice = await contractOf.methods.gPRice(newNum).call();
+      console.log("totalPrice", totalPrice);
+
+      totalPrice = parseFloat(totalPrice) / 1000000000000000000;
+      setTtlKlay(totalPrice);
+      console.log("Incremetn", totalPrice);
+      setNomints(newNum);
+    }
+  };
+
+  const mintAndStake = async () => {
+    // let myAccountAddress = await loadWeb3();
+    console.log("myAccountAddress", acc);
+    if (acc == "No Wallet") {
+      console.log("No wallet");
+      toast.error(acc);
+    } else if (acc == "Wrong Network") {
+      console.log("Wrong Network");
+      toast.error(acc);
+    } else if (acc == "Connect Wallet") {
+      toast.error(acc);
+    } else {
+      try {
+        const { klaytn } = window;
+        let contractOf = new caver.klay.Contract(
+          goongyeContractAbi,
+          googyeContractAddress
+        );
+
+        let totalPrice = await contractOf.methods.gPRice(noMints).call();
+        console.log("totalPrice", totalPrice);
+        let balance = await caver.klay.getBalance(acc);
+        // balance = caver.utils.fromPeb(balance);
+
+        console.log("Balance", balance);
+        if (parseFloat(balance) > parseFloat(totalPrice)) {
+          await contractOf.methods.mint(noMints).send({
+            from: acc,
+            value: totalPrice,
+            gas: "800000",
+          });
+          toast.success("Transaction Successfull");
+        } else {
+          toast.error("insufficient Balance!");
+        }
+      } catch (e) {
+        console.log(" Error while minting", e);
+        toast.error("Minting Failed");
+      }
+    }
+  };
 
   const [sound, setSound] = useState(true);
+
+  useEffect(() => {
+    getInitialMintPrice();
+  }, [acc]);
+
   return (
     <div className="container-fluid mintContainer  pt-5 pb-5">
       <div className="row">
@@ -102,9 +217,13 @@ export default function Mint() {
               <div>
                 <div className="mintAdditionSection mt-4">
                   <div>
-                    <button className="btnMinus ">-</button>
-                    <span className="spanCount ">1</span>
-                    <button className="btnPlus ">+</button>
+                    <button className="btnMinus " onClick={() => decrement()}>
+                      -
+                    </button>
+                    <span className="spanCount ">{noMints}</span>
+                    <button className="btnPlus " onClick={() => increment()}>
+                      +
+                    </button>
                   </div>
                   <div>
                     <button className="btnMax ">3 max</button>
@@ -119,7 +238,7 @@ export default function Mint() {
                     <span className="totalSpan ps-2">Total</span>
                   </div>
                   <div>
-                    <span className="KLAYspan pe-2">--- KLAY</span>
+                    <span className="KLAYspan pe-2">{ttlKlay} KLAY</span>
                   </div>
                 </div>
                 <div className="mt-1">
@@ -127,12 +246,26 @@ export default function Mint() {
                 </div>
                 <div className="btnWalletStakeArea">
                   <div>
-                    <button className="btnConnectWallet mt-2 ">
-                      Connect Wallet
+                    <button
+                      className="btnConnectWallet mt-2 "
+                      onClick={onConnectAcc}
+                    >
+                      {acc === "No Wallet"
+                        ? "Connect"
+                        : acc === "Connect Wallet"
+                        ? "Connect"
+                        : acc === "Wrong Network"
+                        ? acc
+                        : acc.substring(0, 4) +
+                          "..." +
+                          acc.substring(acc.length - 4)}
                     </button>
                   </div>
                   <div>
-                    <button className="btnMint mt-2 mb-2">
+                    <button
+                      onClick={() => mintAndStake()}
+                      className="btnMint mt-2 mb-2"
+                    >
                       Mint & Stake Now
                     </button>
                   </div>

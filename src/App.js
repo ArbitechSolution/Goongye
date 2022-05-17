@@ -21,7 +21,10 @@ import AppHome from "./AppHome";
 import Caver from "caver-js";
 import "animate.css";
 import AOS from "aos";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+import { loadWeb3 } from "./api";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
@@ -37,13 +40,20 @@ function App() {
     // )
     console.log("keyring", keyring);
   };
+  const loadAcc = async () => {
+    let acc = await loadWeb3();
+    console.log("acc", acc);
+  };
 
   useEffect(() => {
-    testFunction();
+    // loadAcc()
+    // testFunction();
   }, []);
   return (
     <div className="App">
       <BrowserRouter>
+        <ToastContainer />
+
         {/* <NavBar /> */}
         <Routes>
           <Route exact path="/" element={<AppHome />} />
