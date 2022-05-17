@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   flex-direction: column;
   overflow: hidden;
+  font-style: normal;
 }
 .stakingText {
   font-weight: 900;
@@ -15,8 +16,13 @@
 .stakingPara1,
 .stakingPara2 {
   color: #fff;
-  max-width: 760px;
+  /* max-width: 760px;
+  min-width: 300px; */
+  max-width: 900px;
   min-width: 300px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
 }
 .spanColor1 {
   color: #2adeea;

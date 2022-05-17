@@ -1802,6 +1802,12 @@ export default function Roadmap() {
           </div>
         </div>
       </div>
+      <div className="row roadmapFooter mt-3">
+        <h6 className=" p-5 h6text">
+          *Roadmap schedule is subject to change depending on business direction
+          and strategy
+        </h6>
+      </div>
     </div>
   );
 }

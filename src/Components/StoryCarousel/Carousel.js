@@ -28,9 +28,9 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">
+              <h6 className="carouselHeading pe-3">
                 {t("storyCarousel.scene1")}
-              </h3>
+              </h6>
               <p className="carouselPara">{t("storyCarousel.para1")}</p>
             </div>
           </div>
@@ -43,9 +43,9 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">
+              <h6 className="carouselHeading pe-3">
                 {t("storyCarousel.scene2")}
-              </h3>
+              </h6>
               <p className="carouselPara">{t("storyCarousel.para2")}</p>
             </div>
           </div>
@@ -58,9 +58,9 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">
+              <h6 className="carouselHeading pe-3">
                 {t("storyCarousel.scene3")}
-              </h3>
+              </h6>
               <p className="carouselPara">{t("storyCarousel.para3")}</p>
             </div>
           </div>
@@ -73,9 +73,9 @@ export default function StoryCarousel() {
           </div>
           <div className="d-flex justify-content-center align-items-center p-2">
             <div className="carouselDescripton">
-              <h3 className="carouselHeading pe-2">
+              <h6 className="carouselHeading pe-3">
                 {t("storyCarousel.scene4")}
-              </h3>
+              </h6>
               <p className="carouselPara">{t("storyCarousel.para4")}</p>
             </div>
           </div>

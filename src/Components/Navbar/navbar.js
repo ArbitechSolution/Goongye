@@ -23,12 +23,12 @@ export default function NavBar({
   return (
     <div
       className="container-fluid navbarMainContainer "
-      data-aos="zoom-in"
-      data-aos-duration="3000"
-      data-aos-offset="200"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="false"
+      // data-aos="zoom-in"
+      // data-aos-duration="3000"
+      // data-aos-offset="200"
+      // data-aos-easing="ease-in-out"
+      // data-aos-mirror="true"
+      // data-aos-once="false"
     >
       <div className="col-12 justify-content-end align-items-center mobileNabarSocial pt-2">
         <span
@@ -43,17 +43,28 @@ export default function NavBar({
         >
           KOR
         </span>
-        <a href="#" class="navbarSocialLinks">
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          class="navbarSocialLinks"
+        >
           <img className="navbarSocialImages" src={twitter} />
         </a>
-        <a href="#" class="navbarSocialLinks">
+        <a href="https://telegram.org/" class="navbarSocialLinks">
           <img className="navbarSocialImages" src={victor} />
         </a>
-        <a href="#" class="navbarSocialLinks">
+        <a
+          href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"
+          target="_blank"
+          class="navbarSocialLinks"
+        >
           <img className="navbarSocialImages" src={talk} />
         </a>
 
-        <a href="#" class="navbarSocialLinks">
+        <a
+          href="https://support.discord.com/hc/en-us"
+          class="navbarSocialLinks"
+        >
           <img className="navbarSocialImages" src={victor2} />
         </a>
       </div>

@@ -578,3 +578,18 @@
 .roadmapCardText {
   font-size: 14px;
 }
+.roadmapFooter {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.h6text {
+  text-align: center;
+  font-size: 22px;
+}

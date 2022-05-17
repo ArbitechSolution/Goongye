@@ -25,17 +25,25 @@ export default function FooterWithoutAnimation() {
           </h6>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center  pt-2">
-          <a href="#" class=" socialLinks">
+          <a href="https://twitter.com/" target="_blank" class=" socialLinks">
             <img className="socialImages" src={twitter} />
           </a>
-          <a href="#" class=" socialLinks">
+          <a class=" socialLinks" href="https://telegram.org/" target="_blank">
             <img className="socialImages" src={victor} />
           </a>
-          <a href="#" class=" socialLinks">
+          <a
+            href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"
+            target="_blank"
+            class=" socialLinks"
+          >
             <img className="socialImages" src={talk} />
           </a>
 
-          <a href="#" class=" socialLinks">
+          <a
+            href="https://support.discord.com/hc/en-us"
+            class=" socialLinks"
+            target="_blank"
+          >
             <img className="socialImages" src={victor2} />
           </a>
         </div>

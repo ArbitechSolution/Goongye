@@ -35,7 +35,7 @@ export default function FAQ() {
             <h2 class="accordion-header" id="headingOne">
               <button
                 type="button"
-                class="accordion-button collapsed"
+                class="accordion-button collapse"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
               >
@@ -44,8 +44,10 @@ export default function FAQ() {
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse">
-              <div class="accordianCardBody">
-                <p>
+              <div class="accordianCardBody ps-5">
+                <span className="QandA">A.</span>
+
+                <p className="p-3">
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -72,9 +74,10 @@ export default function FAQ() {
                 minting quantity?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse show">
+            <div id="collapseTwo" class="accordion-collapse collapsed show">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -104,7 +107,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -133,7 +137,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -162,7 +167,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -191,7 +197,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -220,7 +227,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseSeven" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -249,7 +257,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseEight" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -278,7 +287,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseNine" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -307,7 +317,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseTen" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
@@ -336,13 +347,15 @@ export default function FAQ() {
             </h2>
             <div id="collapseEleven" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>
               </div>
             </div>
           </div>
+
           <div
             class="accordion-item"
             data-aos="fade-up"
@@ -352,7 +365,7 @@ export default function FAQ() {
             data-aos-mirror="true"
             data-aos-once="false"
           >
-            <h2 class="accordion-header" id="headingTweleve">
+            <h2 class="accordion-header" id="headingEleven">
               <button
                 type="button"
                 class="accordion-button collapsed"
@@ -365,7 +378,8 @@ export default function FAQ() {
             </h2>
             <div id="collapseTweleve" class="accordion-collapse collapse">
               <div class="accordianCardBody">
-                <p>
+                <p className="p-3">
+                  <span className="QandA">A.</span>
                   The total issuance is 10,000 units, and 9,800 units will be
                   minted excluding 200 units of the team.
                 </p>

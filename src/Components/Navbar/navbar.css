@@ -7,6 +7,7 @@
 }
 .navbar {
   padding-top: 0px !important;
+  /* position: sticky; */
 }
 .nav-link {
   color: #fff !important;
