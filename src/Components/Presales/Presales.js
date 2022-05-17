@@ -21,13 +21,13 @@ export default function Presales() {
     <div className="presales d-flex justify-content-center" id="Presale">
       <div className="imgArea mt-lg-0 mt-md-0 mt-sm-2">
         <img className="presalesTop-image" src={containerImage}></img>
-        <span className="imgArea-text">Presales</span>
+        <span className="imgArea-text">{t("Presales.1")}</span>
       </div>
       <div className="container container-presales-outside m-5 m-md-3 m-sm-2 ps-0 m-md-1 m-sm-1">
         <div className="container-fluid container-presales m-1 p-lg-5 p-md-3">
           <div className="row mt-5">
             <div className="connectBtnInPresale">
-              <button className="btnConnectInPresale  mt-2">Connect</button>
+              <button className="btnConnectInPresale  mt-2">{t("presale.connect")}</button>
             </div>
           </div>
           <div className="row mt-5">
@@ -36,15 +36,13 @@ export default function Presales() {
                 <img src={mint} class=" mintImage" alt="..." />
                 <div class=" mintCardBody pb-1">
                   <ul>
-                    <li> You MUST connect a Wallet to mint NFTs.</li>
-                    <li>Transactions will be done via the connected wallet.</li>
+                    <li> {t("presale.li1")}</li>
+                    <li>{t("presale.li2")}</li>
                     <li>
-                      You MUST have KLAYTN to pay gas fee when it comes to make
-                      transactions.
+                    {t("presale.li3")}
                     </li>
                     <li>
-                      The number of mints per transaction is set according to
-                      each sales round.
+                    {t("presale.li4")}
                     </li>
                   </ul>
                 </div>
@@ -64,7 +62,7 @@ export default function Presales() {
                       aria-controls="nav-home"
                       aria-selected="true"
                     >
-                      <span className="tabText">1st Pre-Sales</span>
+                      <span className="tabText">{t("presale.2")}</span>
                     </button>
                     <button
                       class="nav-link navTabs"
@@ -76,7 +74,7 @@ export default function Presales() {
                       aria-controls="nav-profile"
                       aria-selected="false"
                     >
-                      <span className="tabText">2nd Pre-Sales</span>
+                      <span className="tabText">{t("presale.3")}</span>
                     </button>
                     <button
                       class="nav-link navTabs tab3"
@@ -88,7 +86,7 @@ export default function Presales() {
                       aria-controls="nav-contact"
                       aria-selected="false"
                     >
-                      <span className="tabText">3rd Pre-Sales</span>
+                      <span className="tabText">{t("presale.4")}</span>
                     </button>
                   </div>
                 </nav>
@@ -121,12 +119,12 @@ export default function Presales() {
                       </div>
                       <div className="mintTotal">
                         <div>
-                          <span className="totalSpan ps-2">Price</span>
+                          <span className="totalSpan ps-2">{t("presale.price")}</span>
                         </div>
                         <div>
                           <span className="KLAYspan pe-2">
                             <img src={klytn} className="me-2" />
-                            <span className="textColor me-1">100</span>KLAY
+                            <span className="textColor me-1">100</span>{t("mint.KLAY")}
                           </span>
                         </div>
                       </div>
@@ -134,7 +132,7 @@ export default function Presales() {
                         <hr className="solid hori"></hr>
                       </div>
                       <div className=" mt-4 row">
-                        <span className="KLAYspan pe-2">Amount</span>
+                        <span className="KLAYspan pe-2">{t("presale.Amount")}</span>
                       </div>
                       <div className="preslaesAdditionSection mt-4 row">
                         <button
@@ -155,7 +153,7 @@ export default function Presales() {
                       <div className="btnWalletStakeArea">
                         <div>
                           <button className="btnMintPresale mt-3 mb-3 ">
-                            Mint
+                          {t("navbar.mint")}
                           </button>
                         </div>
                       </div>
@@ -189,12 +187,12 @@ export default function Presales() {
                       </div>
                       <div className="mintTotal">
                         <div>
-                          <span className="totalSpan ps-2">Price</span>
+                          <span className="totalSpan ps-2">{t("presale.price")}</span>
                         </div>
                         <div>
                           <span className="KLAYspan pe-2">
                             <img src={klytn} className="me-2" />
-                            <span className="textColor me-1">125</span>KLAY
+                            <span className="textColor me-1">125</span>{t("mint.KLAY")}
                           </span>
                         </div>
                       </div>
@@ -202,7 +200,7 @@ export default function Presales() {
                         <hr className="solid hori"></hr>
                       </div>
                       <div className=" mt-4 row">
-                        <span className="KLAYspan pe-2">Amount</span>
+                        <span className="KLAYspan pe-2">{t("presale.Amount")}</span>
                       </div>
                       <div className="preslaesAdditionSection mt-4 row">
                         <button className="btnMinus btnMinusPresale ">-</button>
@@ -213,7 +211,7 @@ export default function Presales() {
                       <div className="btnWalletStakeArea">
                         <div>
                           <button className="btnMintPresale mt-3 mb-3 ">
-                            Mint
+                          {t("navbar.mint")}
                           </button>
                         </div>
                       </div>
@@ -247,12 +245,12 @@ export default function Presales() {
                       </div>
                       <div className="mintTotal">
                         <div>
-                          <span className="totalSpan ps-2">Price</span>
+                          <span className="totalSpan ps-2">{t("presale.price")}</span>
                         </div>
                         <div>
                           <span className="KLAYspan pe-2">
                             <img src={klytn} className="me-2" />
-                            <span className="textColor me-1">150</span>KLAY
+                            <span className="textColor me-1">150</span>{t("mint.KLAY")}
                           </span>
                         </div>
                       </div>
@@ -260,7 +258,7 @@ export default function Presales() {
                         <hr className="solid hori"></hr>
                       </div>
                       <div className=" mt-4 row">
-                        <span className="KLAYspan pe-2">Amount</span>
+                        <span className="KLAYspan pe-2">{t("presale.Amount")}</span>
                       </div>
                       <div className="preslaesAdditionSection mt-4 row">
                         <button className="btnMinus btnMinusPresale ">-</button>
@@ -271,14 +269,14 @@ export default function Presales() {
                       <div className="btnWalletStakeArea">
                         <div>
                           <button className="btnMintPresale mt-3 mb-3">
-                            Sold Out
+                            {t("presale.Sold")}
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                {/* 
+                {/*
                 <div className="presaleCard2SubHeader pt-2 pb-2">
                   <h6 className="ps-3 ">Price Per Card</h6>
                   <span className="ps-3">

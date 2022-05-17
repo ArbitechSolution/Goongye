@@ -18,7 +18,7 @@ export default function FAQ() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          FAQ
+          {t("FAQ.1")}
         </h1>
       </div>
       <div className="d-flex justify-content-center align-items-center">
@@ -39,15 +39,13 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
               >
-                <span className="QandA">Q.</span>When will the minting site be
-                announced?
+                <span className="QandA">Q.</span>{t("faq.parah1")}
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -68,15 +66,13 @@ export default function FAQ() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
               >
-                <span className="QandA">Q.</span> What is the total issuance and
-                minting quantity?
+                <span className="QandA">Q.</span> {t("faq.parah3")}
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse show">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -98,15 +94,13 @@ export default function FAQ() {
                 data-bs-target="#collapseThree"
               >
                 <span className="QandA">Q.</span>
-                What is the minting price, and how many mints are available per
-                transaction?
+                {t("faq.parah5")}
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -128,14 +122,13 @@ export default function FAQ() {
                 data-bs-target="#collapseFour"
               >
                 <span className="QandA">Q.</span>
-                How can we do minting?
+                {t("faq.parah7")}
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -157,14 +150,13 @@ export default function FAQ() {
                 data-bs-target="#collapseFive"
               >
                 <span className="QandA">Q.</span>
-                Do you have NFT secondary royalty?
+                {t("faq.parah9")}
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -186,14 +178,13 @@ export default function FAQ() {
                 data-bs-target="#collapseSix"
               >
                 <span className="QandA">Q.</span>
-                What are the Crazy Ape Goongye?
+                {t("faq.parah11")}
               </button>
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -215,14 +206,13 @@ export default function FAQ() {
                 data-bs-target="#collapseSeven"
               >
                 <span className="QandA">Q.</span>
-                How many NFT’s will be minted?
+                {t("faq.parah13")}
               </button>
             </h2>
             <div id="collapseSeven" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -244,14 +234,13 @@ export default function FAQ() {
                 data-bs-target="#collapseEight"
               >
                 <span className="QandA">Q.</span>
-                Is it hosted on IPFS?
+                {t("faq.parah15")}
               </button>
             </h2>
             <div id="collapseEight" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -273,14 +262,13 @@ export default function FAQ() {
                 data-bs-target="#collapseNine"
               >
                 <span className="QandA">Q.</span>
-                Is there a whitelist and pre-sale for the Crazy Ape Goongye?
+                {t("faq.parah17")}
               </button>
             </h2>
             <div id="collapseNine" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -302,14 +290,13 @@ export default function FAQ() {
                 data-bs-target="#collapseTen"
               >
                 <span className="QandA">Q.</span>
-                Will there be other characters in the future?
+                {t("faq.parah19")}
               </button>
             </h2>
             <div id="collapseTen" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -331,14 +318,13 @@ export default function FAQ() {
                 data-bs-target="#collapseEleven"
               >
                 <span className="QandA">Q.</span>
-                Are there any plans to develop Crazy King Goongye Games?
+                {t("faq.parah21")}
               </button>
             </h2>
             <div id="collapseEleven" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>
@@ -360,14 +346,13 @@ export default function FAQ() {
                 data-bs-target="#collapseTweleve"
               >
                 <span className="QandA">Q.</span>
-                Why are the team members not public?
+                {t("faq.parah23")}
               </button>
             </h2>
             <div id="collapseTweleve" class="accordion-collapse collapse">
               <div class="accordianCardBody">
                 <p>
-                  The total issuance is 10,000 units, and 9,800 units will be
-                  minted excluding 200 units of the team.
+                {t("faq.parah2")}
                 </p>
               </div>
             </div>

@@ -133,6 +133,7 @@
    "roadmap.parah22": "at the end of the year",
    "roadmap.parah23":"Unveil a larger ecosystem expansion (Roadmap 2.0)",
 
+<<<<<<< Updated upstream
    "team.para1":"The Team",
    "team.para2":"The Artist",
    "team.para3":"Blockchain Dev",
@@ -189,4 +190,47 @@
 
 
 
+=======
+
+   "FAQ.1": "FAQ",
+   "faq.parah1": "When will the minting site be announced?",
+   "faq.parah2": "The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah3":"What is the total issuance and minting quantity?",
+   "faq.parah4":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah5":"What is the minting price, and how many mints are available per transaction?",
+   "faq.parah6":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah7": "How can we do minting?",
+   "faq.parah8":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah9": "Do you have NFT secondary royalty?",
+   "faq.parah10":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah11":"What are the Crazy Ape Goongye?",
+   "faq.parah12":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah13":"How many NFT’s will be minted?",
+   "faq.parah14":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah15":"Is it hosted on IPFS?",
+   "faq.parah16":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah17":"Is there a whitelist and pre-sale for the Crazy Ape Goongye?",
+   "faq.parah18":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah19":"Will there be other characters in the future?",
+   "faq.parah20":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah21":"Are there any plans to develop Crazy King Goongye Games?",
+   "faq.parah22":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+   "faq.parah23":"Why are the team members not public?",
+   "faq.parah24":"The total issuance is 10,000 units, and 9,800 units will be minted excluding 200 units of the team.",
+
+   "footer.1":"COPYRIGHT Crazyapegoongyeclub. ALL RIGHTS RESERVED",
+
+   "Presales.1":"Presales",
+   "presale.connect":"Connect",
+   "presale.li1":"You MUST connect a Wallet to mint NFTs.",
+   "presale.li2":"Transactions will be done via the connected wallet.",
+   "presale.li3":"You MUST have KLAYTN to pay gas fee when it comes to make transactions.",
+   "presale.li4":"The number of mints per transaction is set according to each sales round.",
+   "presale.2":"1st Pre-Sales",
+   "presale.3":"2nd Pre-Sales",
+   "presale.4":"3rd Pre-Sales",
+   "presale.price":"Price",
+   "presale.Amount":"Amount",
+   "presale.Sold":"Sold Out"
+>>>>>>> Stashed changes
 }
