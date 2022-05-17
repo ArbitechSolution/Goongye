@@ -127,7 +127,7 @@ export default function NFTCarousel() {
         data-aos-mirror="true"
         data-aos-once="false"
       >
-        CRAZY APE GOONGYE NFT
+        {t("nftCarousel.1")}
       </h2>
       <Slider
         {...settings}
@@ -210,7 +210,7 @@ export default function NFTCarousel() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          OpenSea
+          {t("nftCarousel.2")}
         </button>
       </div>
     </div>

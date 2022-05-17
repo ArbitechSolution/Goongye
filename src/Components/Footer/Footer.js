@@ -29,7 +29,7 @@ export default function Footer() {
             maguni@crazyapegongyeclub.com
           </a>
           <h6 className="copyWrite">
-            COPYRIGHT Crazyapegoongyeclub. ALL RIGHTS RESERVED
+            {t("footer.1")}
           </h6>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center  pt-2">

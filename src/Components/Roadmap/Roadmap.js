@@ -20,7 +20,7 @@ export default function Roadmap() {
         data-aos-mirror="true"
         data-aos-once="false"
       >
-        Roadmap
+        {t("Roadmap.1")}
       </h1>
       {/* large view */}
       <div className="row roadmapRowContainer roadmapLaptop  d-lg-flex  d-md-none  d-sm-none">
@@ -55,8 +55,8 @@ export default function Roadmap() {
               5%
             </span>
             <span class="roadmapCardText">
-              Open the website of the ape,
-              <span className="colorText"> ‘Goongye’</span>
+            {t("roadmap.parah1")}
+              <span className="colorText"> {t("roadmap.Goongye")}</span>
             </span>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Roadmap() {
               10%
             </span>
             <span className="">
-              Startfirst to third <span className="colorText"> pre-sale</span>
+            {t("roadmap.parah2")} <span className="colorText"> {t("roadmap.presale")}</span>
             </span>
           </div>
         </div>
@@ -118,9 +118,7 @@ export default function Roadmap() {
               15%
             </span>
             <span class="roadmapCardText">
-              <span className="colorText"> A prize draw</span> will be provided
-              when the tickets are sold out for each of the first to third
-              rounds.
+              <span className="colorText"> {t("roadmap.prize")}</span> {t("roadmap.parah3")}
             </span>
           </div>
           <img
@@ -167,8 +165,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              <span className="colorText">Start</span> a YouTube channel, blog,
-              and sending to the press
+              <span className="colorText">{t("roadmap.Start")}</span> {t("roadmap.parah4")}
             </span>
           </div>
           <img
@@ -214,8 +211,8 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Airdrops (of) APE Goongye Printy Transportation Card to
-              <span className="colorText ps-1">100 People</span>
+            {t("roadmap.parah5")}
+              <span className="colorText ps-1">{t("roadmap.People")}</span>
             </span>
           </div>
         </div>
@@ -243,8 +240,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              <span className="colorText"> Tokenomics</span> will be released
-              after the 3rd pre-sale is completed
+              <span className="colorText"> {t("roadmap.Tokenomics")}</span> {t("roadmap.parah6")}
             </span>
           </div>
         </div>
@@ -280,9 +276,9 @@ export default function Roadmap() {
               >
                 45%
               </span>
-              Open
-              <span className="colorText ps-1 pe-1">minting and staking</span>
-              function (or Open the function of minting and staking)
+              {t("roadmap.Open")}
+              <span className="colorText ps-1 pe-1">{t("roadmap.parah7")}</span>
+              {t("roadmap.parah8")}
             </span>
           </div>
         </div>
@@ -317,9 +313,9 @@ export default function Roadmap() {
               50%
             </span>
             <span class="roadmapCardText">
-              Purchase the
-              <span className="colorText pe-1"> land of Sandbox</span>
-              and Decentraland metaverse
+            {t("roadmap.Purchase")}
+              <span className="colorText pe-1"> {t("roadmap.parah9")}</span>
+              {t("roadmap.parah10")}
             </span>
           </div>
         </div>
@@ -346,8 +342,7 @@ export default function Roadmap() {
               60%
             </span>
             <span className="">
-              <span className="colorText"> Advertise on the billboard</span> of
-              Yeongdeungpo Times Square
+              <span className="colorText"> {t("roadmap.parah11")}</span> {t("roadmap.parah12")}
             </span>
           </div>
           <img
@@ -393,9 +388,9 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Produce a logo song for
-              <span className="colorText pe-1 ps-1">Goongye APE</span>
-              (or Make a logo song for Gungye APE)
+            {t("roadmap.parah13")}
+              <span className="colorText pe-1 ps-1">{t("roadmap.GoongyeApe")}</span>
+              ({t("roadmap.parah14")})
             </span>
           </div>
           <img
@@ -441,8 +436,7 @@ export default function Roadmap() {
             </span>
 
             <span class="roadmapCardText">
-              Add <span className="colorText"> governance function</span> to the
-              website
+            {t("roadmap.Add")} <span className="colorText"> {t("roadmap.governance")}</span> {t("roadmap.parah15")}
             </span>
           </div>
         </div>
@@ -470,9 +464,9 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              We conduct
-              <span className="colorText pe-1"> AMA on social networking</span>
-              services such as YouTube, Telegram, and Kakao Talk.
+            {t("roadmap.conduct")}
+              <span className="colorText pe-1"> {t("roadmap.parah16")}</span>
+              {t("roadmap.parah17")}
             </span>
           </div>
         </div>
@@ -508,7 +502,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Open<span className="colorText"> ‘Maguni Game’</span>
+            {t("roadmap.Open")}<span className="colorText"> ‘{t("roadmap.parah18")}’</span>
             </span>
           </div>
         </div>
@@ -544,8 +538,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Issue<span className="colorText ps-1">3D NFT</span> to benefit
-              holders (chain undecided)
+            {t("roadmap.Issue")}<span className="colorText ps-1">{t("roadmap.NFT")}</span> {t("roadmap.parah19")}
             </span>
           </div>
         </div>
@@ -572,9 +565,8 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Hold an offline membership event for
-              <span className="colorText ps-1">APE Goongye Club </span>at the
-              end of the year
+            {t("roadmap.parah20")}
+              <span className="colorText ps-1">{t("roadmap.parah21")} </span>{t("roadmap.parah22")}
             </span>
           </div>
           <img
@@ -619,7 +611,7 @@ export default function Roadmap() {
               100%
             </span>
             <span className="">
-              Unveil a larger ecosystem expansion (Roadmap 2.0)
+            {t("roadmap.parah23")}
             </span>
           </div>
         </div>
@@ -658,8 +650,8 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span class="roadmapCardText">
-              Open the website of the ape,
-              <span className="colorText"> ‘Goongye’</span>
+            {t("roadmap.parah1")}
+              <span className="colorText"> {t("roadmap.Goongye")}</span>
             </span>
           </div>
         </div>
@@ -685,7 +677,7 @@ export default function Roadmap() {
               10%
             </span>
             <span className="">
-              Startfirst to third <span className="colorText"> pre-sale</span>
+            {t("roadmap.parah2")} <span className="colorText"> {t("roadmap.presale")}</span>
             </span>
           </div>
           <img
@@ -730,8 +722,7 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              <span className="colorText"> Tokenomics</span> will be released
-              after the 3rd pre-sale is completed
+              <span className="colorText"> {t("roadmap.Tokenomics")}</span> {t("roadmap.parah6")}
             </span>
           </div>
           <img src={line} class="verticalTabletRule" />
@@ -758,9 +749,7 @@ export default function Roadmap() {
               15%
             </span>
             <span class="roadmapCardText">
-              <span className="colorText"> A prize draw</span> will be provided
-              when the tickets are sold out for each of the first to third
-              rounds.
+              <span className="colorText"> {t("roadmap.prize")}</span> {t("roadmap.parah3")}
             </span>
           </div>
         </div>
@@ -795,8 +784,8 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              Airdrops (of) APE Goongye Printy Transportation Card to
-              <span className="colorText ps-1">100 People</span>
+            {t("roadmap.parah5")}
+              <span className="colorText ps-1">{t("roadmap.People")}</span>
             </span>
           </div>
         </div>
@@ -822,8 +811,7 @@ export default function Roadmap() {
               40%
             </span>
             <span className="">
-              <span className="colorText">Start</span> a YouTube channel, blog,
-              and sending to the press
+              <span className="colorText">{t("roadmap.Start")}</span> {t("roadmap.parah4")}
             </span>
           </div>
           <img
@@ -868,9 +856,9 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span class="roadmapCardText">
-              Purchase the
-              <span className="colorText pe-1"> land of Sandbox</span>
-              and Decentraland metaverse
+            {t("roadmap.Purchase")}
+              <span className="colorText pe-1"> {t("roadmap.parah9")}</span>
+              {t("roadmap.parah10")}
             </span>
           </div>
           <img
@@ -906,9 +894,9 @@ export default function Roadmap() {
               >
                 45%
               </span>
-              Open
-              <span className="colorText ps-1 pe-1">minting and staking</span>
-              function (or Open the function of minting and staking)
+              {t("roadmap.Open")}
+              <span className="colorText ps-1 pe-1">{t("roadmap.parah7")}</span>
+              {t("roadmap.parah8")}
             </span>
           </div>
         </div>
@@ -943,8 +931,7 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              <span className="colorText"> Advertise on the billboard</span> of
-              Yeongdeungpo Times Square
+              <span className="colorText"> {t("roadmap.parah11")}</span> {t("roadmap.parah12")}
             </span>
           </div>
         </div>
@@ -970,9 +957,9 @@ export default function Roadmap() {
               70%
             </span>
             <span className="">
-              We conduct
-              <span className="colorText pe-1">AMA on social networking</span>
-              services such as YouTube, Telegram, and Kakao Talk.
+            {t("roadmap.conduct")}
+              <span className="colorText pe-1">{t("roadmap.parah16")}</span>
+              {t("roadmap.parah17")}
             </span>
           </div>
           <img
@@ -1017,9 +1004,9 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              Produce a logo song for
-              <span className="colorText pe-1 ps-1">Goongye APE</span>
-              (or Make a logo song for Gungye APE)
+            {t("roadmap.parah13")}
+              <span className="colorText pe-1 ps-1">{t("roadmap.GoongyeApe")}</span>
+              ({t("roadmap.parah14")})
             </span>
           </div>
           <img
@@ -1055,8 +1042,7 @@ export default function Roadmap() {
               75%
             </span>
             <span class="roadmapCardText">
-              Add <span className="colorText"> governance function</span> to the
-              website
+            {t("roadmap.Add")} <span className="colorText"> {t("roadmap.governance")}</span> {t("roadmap.parah15")}
             </span>
           </div>
         </div>
@@ -1092,7 +1078,7 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              Open<span className="colorText"> ‘Maguni Game’</span>
+            {t("roadmap.Open")}<span className="colorText"> ‘{t("roadmap.parah18")}’</span>
             </span>
           </div>
         </div>
@@ -1118,8 +1104,7 @@ export default function Roadmap() {
               90%
             </span>
             <span className="">
-              Issue<span className="colorText ps-1">3D NFT</span> to benefit
-              holders (chain undecided)
+            {t("roadmap.Issue")}<span className="colorText ps-1">{t("roadmap.NFT")}</span> {t("roadmap.parah19")}
             </span>
           </div>
           <img
@@ -1164,7 +1149,7 @@ export default function Roadmap() {
               data-aos-once="false"
             />
             <span className="">
-              Unveil a larger ecosystem expansion (Roadmap 2.0)
+            {t("roadmap.parah23")}
             </span>
           </div>
         </div>
@@ -1191,9 +1176,8 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Hold an offline membership event for
-              <span className="colorText ps-1">APE Goongye Club </span>at the
-              end of the year
+            {t("roadmap.parah20")}
+              <span className="colorText ps-1">{t("roadmap.parah21")} </span>{t("roadmap.parah22")}
             </span>
           </div>
         </div>
@@ -1224,8 +1208,8 @@ export default function Roadmap() {
               5%
             </span>
             <span class="roadmapCardText">
-              Open the website of the ape,
-              <span className="colorText"> ‘Goongye’</span>
+            {t("roadmap.parah1")}
+              <span className="colorText"> {t("roadmap.Goongye")}</span>
             </span>
           </div>
           <img
@@ -1261,7 +1245,7 @@ export default function Roadmap() {
               10%
             </span>
             <span className="">
-              Startfirst to third <span className="colorText"> pre-sale</span>
+            {t("roadmap.parah2")} <span className="colorText"> {t("roadmap.presale")}</span>
             </span>
           </div>
           <img
@@ -1299,9 +1283,7 @@ export default function Roadmap() {
             </span>
 
             <span class="roadmapCardText">
-              <span className="colorText"> A prize draw</span> will be provided
-              when the tickets are sold out for each of the first to third
-              rounds.
+              <span className="colorText"> {t("roadmap.prize")}</span> {t("roadmap.parah3")}
             </span>
           </div>
           <img
@@ -1338,8 +1320,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              <span className="colorText"> Tokenomics</span> will be released
-              after the 3rd pre-sale is completed
+              <span className="colorText"> {t("roadmap.Tokenomics")}</span> {t("roadmap.parah6")}
             </span>
           </div>
           <img
@@ -1376,8 +1357,8 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Airdrops (of) APE Goongye Printy Transportation Card to
-              <span className="colorText ps-1">100 People</span>
+            {t("roadmap.parah5")}
+              <span className="colorText ps-1">{t("roadmap.People")}</span>
             </span>
           </div>
           <img
@@ -1413,8 +1394,7 @@ export default function Roadmap() {
               40%
             </span>
             <span className="">
-              <span className="colorText">Start</span> a YouTube channel, blog,
-              and sending to the press
+              <span className="colorText">{t("roadmap.Start")}</span> {t("roadmap.parah4")}
             </span>
           </div>
           <img
@@ -1450,9 +1430,9 @@ export default function Roadmap() {
               >
                 45%
               </span>
-              Open
-              <span className="colorText ps-1 pe-1">minting and staking</span>
-              function (or Open the function of minting and staking)
+              {t("roadmap.Open")}
+              <span className="colorText ps-1 pe-1">{t("roadmap.parah7")}</span>
+              {t("roadmap.parah8")}
             </span>
           </div>
           <img
@@ -1489,9 +1469,9 @@ export default function Roadmap() {
             </span>
 
             <span class="roadmapCardText">
-              Purchase the
-              <span className="colorText pe-1"> land of Sandbox</span>
-              and Decentraland metaverse
+            {t("roadmap.Purchase")}
+              <span className="colorText pe-1"> {t("roadmap.parah9")}</span>
+              {t("roadmap.parah10")}
             </span>
           </div>
           <img
@@ -1529,8 +1509,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              <span className="colorText"> Advertise on the billboard</span> of
-              Yeongdeungpo Times Square
+              <span className="colorText"> {t("roadmap.parah11")}</span> {t("roadmap.parah12")}
             </span>
           </div>
           <img
@@ -1567,9 +1546,9 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              We conduct
-              <span className="colorText pe-1"> AMA on social networking</span>
-              services such as YouTube, Telegram, and Kakao Talk.
+            {t("roadmap.conduct")}
+              <span className="colorText pe-1"> {t("roadmap.parah16")}</span>
+              {t("roadmap.parah17")}
             </span>
           </div>
           <img
@@ -1606,8 +1585,7 @@ export default function Roadmap() {
             </span>
 
             <span class="roadmapCardText">
-              Add <span className="colorText"> governance function</span> to the
-              website
+            {t("roadmap.Add")} <span className="colorText"> {t("roadmap.governance")}</span> {t("roadmap.parah15")}
             </span>
           </div>
           <img
@@ -1644,9 +1622,9 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Produce a logo song for
-              <span className="colorText ps-1 pe-1">Goongye APE</span>
-              (or Make a logo song for Gungye APE)
+            {t("roadmap.parah13")}
+              <span className="colorText ps-1 pe-1">{t("roadmap.GoongyeApe")}</span>
+              ({t("roadmap.parah14")})
             </span>
           </div>
           <img
@@ -1684,7 +1662,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Open<span className="colorText"> ‘Maguni Game’</span>
+            {t("roadmap.Open")}<span className="colorText"> ‘{t("roadmap.parah18")}’</span>
             </span>
           </div>
           <img
@@ -1721,8 +1699,7 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Issue<span className="colorText ps-1">3D NFT</span> to benefit
-              holders (chain undecided)
+            {t("roadmap.Issue")}<span className="colorText ps-1">{t("roadmap.NFT")}</span> {t("roadmap.parah19")}
             </span>
           </div>
           <img
@@ -1759,9 +1736,8 @@ export default function Roadmap() {
             </span>
 
             <span className="">
-              Hold an offline membership event for
-              <span className="colorText ps-1">APE Goongye Club </span>at the
-              end of the year
+            {t("roadmap.parah20")}
+              <span className="colorText ps-1">{t("roadmap.parah21")} </span>{t("roadmap.parah22")}
             </span>
           </div>
           <img
@@ -1797,7 +1773,7 @@ export default function Roadmap() {
               100%
             </span>
             <span className="">
-              Unveil a larger ecosystem expansion (Roadmap 2.0)
+            {t("roadmap.parah23")}
             </span>
           </div>
         </div>

@@ -21,7 +21,7 @@ export default function Team() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          The Team
+         {t("team.para1")}
         </h1>
       </div>
       <div className="row p-3">
@@ -38,7 +38,7 @@ export default function Team() {
             <img src={teamImage1} class="teamCardImage" alt="..." />
             <div class="teamCardBody pt-3">
               <h5 class="cardTitle">#PSS J</h5>
-              <h6 className="cardSubTitle">The Artist</h6>
+              <h6 className="cardSubTitle">{t("team.para2")}</h6>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Team() {
             <img src={teamImage2} class="teamCardImage" alt="..." />
             <div class="teamCardBody pt-3">
               <h5 class="cardTitle">#Zoe</h5>
-              <h6 className="cardSubTitle">Blockchain Dev</h6>
+              <h6 className="cardSubTitle">{t("team.para3")}</h6>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Team() {
             <img src={teamImage3} class="teamCardImage" alt="..." />
             <div class="teamCardBody pt-3">
               <h5 class="cardTitle">#Sophia</h5>
-              <h6 className="cardSubTitle">Web Design</h6>
+              <h6 className="cardSubTitle">{t("team.para4")}</h6>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Team() {
             <img src={teamImage4} class="teamCardImage" alt="..." />
             <div class="teamCardBody pt-3">
               <h5 class="cardTitle">#Abbey</h5>
-              <h6 className="cardSubTitle">Community</h6>
+              <h6 className="cardSubTitle">{t("team.para5")}</h6>
             </div>
           </div>
         </div>
